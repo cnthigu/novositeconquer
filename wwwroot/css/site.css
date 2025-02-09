@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Resetando algumas margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+    .navbar ul {
+        list-style: none;
+    }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+            .navbar ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                transition: color 0.3s;
+            }
+
+                .navbar ul li a:hover {
+                    color: #f0a500;
+                }
+
+/* Estilo para o conteúdo principal */
+.text-center {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.display-4 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-center p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    .text-center a:hover {
+        text-decoration: underline;
+    }
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@* Custom CSS for additional styling *@ <style> .form-control {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #4e73df;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+</style >

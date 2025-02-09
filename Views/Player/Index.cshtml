@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ConquerSite.Models.PlayerModels>
+
+<h2>Lista de Players</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>EntityID</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>IP</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Model)
+        {
+            <tr>
+                <td>@player.EntityID</td>
+                <td>@player.Username</td>
+                <td>@player.Email</td>
+                <td>@player.IP</td>
+            </tr>
+        }
+    </tbody>
+</table>
