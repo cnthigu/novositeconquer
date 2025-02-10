@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Download";
+}
+
+<div class="download-container">
+    <h1 class="title">🔥 Baixe o <span>CoGolden</span> Agora! 🔥</h1>
+    <p class="subtitle">Escolha a versão e prepare-se para a batalha!</p>
+
+    <div class="download-buttons">
+        <a href="URL_DO_DOWNLOAD_COMPLETO" class="btn-download full">
+            <i class="bi bi-download"></i> Cliente Completo
+        </a>
+        <a href="URL_DA_ATUALIZAÇÃO" class="btn-download update">
+            <i class="bi bi-arrow-repeat"></i> Apenas Atualização
+        </a>
+    </div>
+
+    <div class="back-home">
+        <a href="@Url.Action("Index", "Home")" class="btn-back">
+            <i class="bi bi-house-door"></i> Voltar para Home
+        </a>
+    </div>
+</div>

@@ -1,3 +1,184 @@
+/* Fundo escuro gamer */
+.market-container {
+    background: url('/images/bg-market.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+/* Título estilizado */
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+    .title span {
+        color: #ff007f; /* Cor neon para destaque */
+    }
+
+/* Filtros */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: 0.3s;
+}
+
+    .filter-input:focus {
+        background: rgba(255, 255, 255, 0.2);
+        outline: none;
+    }
+
+.btn-clear {
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #ff007f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .btn-clear:hover {
+        background: #ff3399;
+    }
+
+/* Tabela gamer */
+.table-container {
+    overflow-x: auto;
+}
+
+.market-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+    .market-table th {
+        background: #00c3ff;
+        color: black;
+        padding: 15px;
+        text-transform: uppercase;
+    }
+
+    .market-table td {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .market-table tr:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transition: 0.3s;
+    }
+
+/* Contador de itens */
+.item-count {
+    margin-top: 20px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+/* Fundo escuro com textura gamer */
+.download-container {
+    background: url('/images/bg-gamer.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+/* Título chamativo */
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+    .title span {
+        color: #ff007f; /* Cor neon para destaque */
+    }
+
+/* Subtítulo com estilo */
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* Botões de download estilosos */
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.8);
+}
+
+.full {
+    background: #ff007f; /* Rosa neon */
+}
+
+.update {
+    background: #00c3ff; /* Azul neon */
+}
+
+/* Efeito hover dos botões */
+.btn-download:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 127, 1);
+}
+
+/* Botão de voltar */
+.btn-back {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+    .btn-back:hover {
+        background: white;
+        color: black;
+    }
 
 
 

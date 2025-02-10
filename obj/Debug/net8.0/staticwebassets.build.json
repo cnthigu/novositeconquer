@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3SdtyA9EmXT1vGo/zCxqmSfUPp0CWD2C5OI4OBGFXbQ=",
+  "Hash": "mcsgScZ/KWMLDam1HEaW0vPrERrXzpTTe9j5A3W8jkI=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lks6idnxzv",
-      "Integrity": "JSzM6CqF4ZpgS4M6Bosw3I7M137KQRP6rxcQyJ6TdEc=",
+      "Fingerprint": "8g8wm7ywki",
+      "Integrity": "yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1485,6 +1485,51 @@
       ]
     },
     {
+      "Route": "css/site.8g8wm7ywki.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 16:10:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8g8wm7ywki"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1495,7 +1540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7105"
+          "Value": "10638"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JSzM6CqF4ZpgS4M6Bosw3I7M137KQRP6rxcQyJ6TdEc=\""
+          "Value": "\"yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 05:48:53 GMT"
+          "Value": "Mon, 10 Feb 2025 16:10:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,52 +1562,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JSzM6CqF4ZpgS4M6Bosw3I7M137KQRP6rxcQyJ6TdEc="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lks6idnxzv.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7105"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JSzM6CqF4ZpgS4M6Bosw3I7M137KQRP6rxcQyJ6TdEc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 05:48:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lks6idnxzv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JSzM6CqF4ZpgS4M6Bosw3I7M137KQRP6rxcQyJ6TdEc="
+          "Value": "sha256-yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M="
         }
       ]
     },

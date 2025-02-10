@@ -28,17 +28,12 @@
         @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
     </div>
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.MobileNumber, new { @class = "form-label" })
-        @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control", placeholder = "Seu número de celular" })
-        @Html.ValidationMessageFor(m => m.MobileNumber, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="text-center">
-        <button type="submit" class="btn btn-success btn-lg w-100">Registrar</button>
-    </div>
-        
-    <div class="text-center mt-3">
-        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary btn-lg w-100">Voltar</a>
+    <div class="row">
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-success btn-lg w-100">Registrar</button>
+        </div>
+        <div class="col-md-6">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary btn-lg w-100">Voltar</a>
+        </div>
     </div>
 }
