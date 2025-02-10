@@ -20,7 +20,8 @@ Este repositório contém o código de um servidor **Conquer Online** refatorado
 
 Para entender mais sobre a implementação e o funcionamento do servidor, você pode assistir ao vídeo demonstrativo do projeto:
 
-[Assista ao vídeo](https://www.youtube.com/watch?v=4mmKo8R8_hk)
+[Assista ao vídeo version 1.0.0](https://www.youtube.com/watch?v=4mmKo8R8_hk)
+[Assista ao vídeo version 2.0.0](https://www.youtube.com/watch?v=3vVuIaGHc1A)
 
 ## Como Rodar o Projeto
 

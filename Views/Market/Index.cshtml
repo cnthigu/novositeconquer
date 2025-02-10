@@ -1,0 +1,130 @@
+﻿@model List<ConquerSite.Models.MarketItem>
+
+@{
+    ViewData["Title"] = "Mercado de Itens";
+}
+
+<div class="container-fluid py-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+
+            <div class="card shadow">
+
+                <div class="card-header bg-success text-white py-3">
+                    <h4 class="text-center m-0">@ViewData["Title"]</h4>
+                </div>
+
+                <div class="card-body bg-light">
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-12 col-md-3">
+                            <input type="text" id="searchPlayer" class="form-control" placeholder="Buscar Jogador" autocomplete="off">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="text" id="searchItem" class="form-control" placeholder="Buscar Item" autocomplete="off">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="number" id="searchPrice" class="form-control" placeholder="Buscar Preço" autocomplete="off">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button id="btnClear" class="btn btn-outline-secondary w-100">Limpar Filtros</button>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped table-bordered">
+                            <thead class="table-success">
+                                <tr>
+                                    <th>Jogador</th>
+                                    <th>Item</th>
+                                    <th>Preço (CPS)</th>
+                                    <th>Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="market-item">
+                                        <td class="align-middle">🧙‍♂️ @item.PlayerName</td>
+                                        <td class="align-middle"><span>🗡️</span> @item.ItemName</td>
+                                        <td class="align-middle"><span>💎</span> @item.Price.ToString("#,0") Cps</td>
+                                        <td class="align-middle">🕰️ @item.Timestamp.ToString("dd/MM/yyyy HH:mm")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="mt-3 text-muted">
+                        <small>Exibindo <span id="itemCount">@Model.Count</span> itens</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchPlayer = document.getElementById('searchPlayer');
+            const searchItem = document.getElementById('searchItem');
+            const searchPrice = document.getElementById('searchPrice');
+            const btnClear = document.getElementById('btnClear');
+            const itemCount = document.getElementById('itemCount');
+            const rows = document.querySelectorAll('.market-item');
+
+
+            function filterTable() {
+                const playerFilter = searchPlayer.value.toLowerCase();
+                const itemFilter = searchItem.value.toLowerCase();
+                const priceFilter = searchPrice.value;
+                let visibleCount = 0;
+
+                rows.forEach(row => {
+                    const player = row.cells[0].textContent.toLowerCase();
+                    const item = row.cells[1].textContent.toLowerCase();
+                    const price = row.cells[2].textContent.replace(' CPS', '').replace('💎', '').replace(/,/g, '');
+
+                    const matchPlayer = player.includes(playerFilter);
+                    const matchItem = item.includes(itemFilter);
+                    const matchPrice = !priceFilter || price.includes(priceFilter);
+
+                    if (matchPlayer && matchItem && matchPrice) {
+                        row.style.display = '';
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+
+                itemCount.textContent = visibleCount;
+            }
+
+
+            searchPlayer.addEventListener('input', filterTable);
+            searchItem.addEventListener('input', filterTable);
+            searchPrice.addEventListener('input', filterTable);
+
+
+            btnClear.addEventListener('click', function() {
+                searchPlayer.value = '';
+                searchItem.value = '';
+                searchPrice.value = '';
+                rows.forEach(row => row.style.display = '');
+                itemCount.textContent = rows.length;
+            });
+
+
+            rows.forEach(row => {
+                row.addEventListener('mouseenter', () => {
+                    row.style.transition = 'background-color 0.3s ease';
+                    row.style.backgroundColor = '#f1f1f1';  // Light hover effect
+                });
+
+                row.addEventListener('mouseleave', () => {
+                    row.style.backgroundColor = '';  // Remove hover effect
+                });
+            });
+        });
+    </script>
+}

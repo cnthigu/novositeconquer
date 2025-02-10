@@ -10,7 +10,7 @@ namespace ConquerSite.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<PlayerModels> accounts { get; set; }
-
+        public DbSet<MarketItem> marketitems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
