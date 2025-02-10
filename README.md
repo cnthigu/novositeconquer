@@ -1,6 +1,6 @@
 # Conquer Online - Projeto de Refatoração para ASP.NET
 
-Este repositório contém o código de um servidor **Conquer Online** refatorado de PHP para **ASP.NET**, utilizando **.NET Framework** e **SQL Server**. A principal motivação para a refatoração foi melhorar o controle, segurança e evitar vulnerabilidades de SQL Injection, proporcionando uma base mais robusta para o servidor.
+Codigo de um site para um servidor de **Conquer Online** refatorado de PHP para **ASP.NET**, utilizando **.NET Framework** e **SQL Server**. A principal motivação para a refatoração foi melhorar o controle, segurança e evitar vulnerabilidades de SQL Injection, proporcionando uma base mais robusta para o servidor.
 
 ## Funcionalidades
 
