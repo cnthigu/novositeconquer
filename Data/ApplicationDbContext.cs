@@ -14,7 +14,7 @@ namespace ConquerSite.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<PlayerModels>().ToTable("accounts"); // Nome exato da tabela no MySQL
+            modelBuilder.Entity<PlayerModels>().ToTable("accounts"); 
 
         }
     }

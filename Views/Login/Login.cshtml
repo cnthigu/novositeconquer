@@ -1,0 +1,24 @@
+﻿@model ConquerSite.Models.PlayerModels
+
+<h2 class="text-center mb-4">Login</h2>
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "login-form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Username, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.Username, new { @class = "form-control", placeholder = "Username" })
+        @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Password, new { @class = "form-label" })
+        @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password" })
+        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+    </div>
+}

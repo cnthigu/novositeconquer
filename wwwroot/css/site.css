@@ -1,3 +1,190 @@
+
+
+/* Estilo do Formulário de Registro */
+form {
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+    background-color: #333; /* Fundo escuro para o formulário */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+    /* Rótulos dos campos */
+    form .form-label {
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+
+    /* Estilo dos campos de entrada */
+    form .form-control {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #444; /* Fundo escuro para os campos de texto */
+        border: 1px solid #555; /* Borda sutil */
+        color: #fff; /* Texto branco */
+    }
+
+        form .form-control:focus {
+            border-color: #d4af37; /* Cor dourada no foco */
+            background-color: #333; /* Fundo mais escuro no foco */
+        }
+
+    /* Estilo do botão de registrar */
+    form .btn-success {
+        background-color: #4CAF50;
+        border-color: #4CAF50;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        form .btn-success:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
+
+    /* Estilo do botão de voltar */
+    form .btn-outline-primary {
+        border-color: #007bff;
+        color: #007bff;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        form .btn-outline-primary:hover {
+            background-color: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+
+
+
+/* Formulário de Login */
+.login-form {
+    max-width: 400px; /* Largura máxima para o formulário */
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    background-color: #333; /* Fundo escuro para o formulário */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+    .login-form .form-label {
+        font-weight: bold;
+        color: #f1f1f1;
+    }
+
+    .login-form .form-control {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #444; /* Fundo escuro para os campos de texto */
+        border: 1px solid #555; /* Borda sutil */
+        color: #fff; /* Texto branco */
+    }
+
+        .login-form .form-control:focus {
+            border-color: #d4af37; /* Cor dourada no foco */
+            background-color: #333; /* Fundo mais escuro no foco */
+        }
+
+    .login-form .btn-primary {
+        background-color: #d4af37;
+        border-color: #d4af37;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        .login-form .btn-primary:hover {
+            background-color: #b38b00;
+            border-color: #b38b00;
+        }
+
+
+/* Cor do Header */
+header {
+    background-color: #2c2c2c; /* Cor escura e sóbria */
+    border-bottom: 2px solid #d4af37; /* Dourado discreto */
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa */
+    color: #d4af37 !important; /* Dourado sutil */
+    font-size: 1.6rem;
+}
+
+.navbar-nav .nav-link {
+    color: #f1f1f1 !important; /* Cor neutra para o texto */
+    font-size: 1.1rem;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #d4af37 !important; /* Efeito hover dourado */
+    }
+
+/* Cartões e Conteúdo */
+.card {
+    background-color: #333; /* Fundo escuro */
+    color: #f1f1f1;
+    border: 1px solid #444; /* Borda fina e discreta */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #666;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+    .btn-primary:hover {
+        background-color: #b38b00;
+        border-color: #b38b00;
+    }
+
+/* Rodapé */
+footer {
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+    padding: 15px 0;
+    text-align: center;
+}
+
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+/* Fundo da página */
+body {
+    background-color: #181818; /* Escuro e moderno */
+    font-family: 'Arial', sans-serif;
+    color: #f1f1f1;
+}
+
+
+
 html {
   font-size: 14px;
 }

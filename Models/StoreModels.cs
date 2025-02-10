@@ -19,5 +19,7 @@ namespace ConquerSite.Models
 
         [Column("mount")]
         public long? Mount { get; set; }
+
+        public string QrCodeBase64 { get; set; }
     }
 }

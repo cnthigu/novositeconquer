@@ -4,41 +4,41 @@
     ViewBag.Title = "Registrar";
 }
 
-<h2 class="text-center text-primary">Registrar</h2>
+<h2 class="text-center text-primary mb-4">Registrar</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Username)
-        @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Username, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Escolha um nome de usuário" })
         @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Email)
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Seu e-mail" })
         @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.Password)
-        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Password, new { @class = "form-label" })
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Sua senha" })
         @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
     </div>
 
-    <div class="form-group">
-        @Html.LabelFor(m => m.MobileNumber)
-        @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control" })
+    <div class="mb-3">
+        @Html.LabelFor(m => m.MobileNumber, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.MobileNumber, new { @class = "form-control", placeholder = "Seu número de celular" })
         @Html.ValidationMessageFor(m => m.MobileNumber, "", new { @class = "text-danger" })
     </div>
 
-    <div class="form-group text-center">
-        <button type="submit" class="btn btn-success btn-lg px-5 py-2">Registrar</button>
+    <div class="text-center">
+        <button type="submit" class="btn btn-success btn-lg w-100">Registrar</button>
     </div>
-
-    <div class="form-group text-center">
-        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary btn-lg px-5 py-2">Voltar</a>
+        
+    <div class="text-center mt-3">
+        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary btn-lg w-100">Voltar</a>
     </div>
 }

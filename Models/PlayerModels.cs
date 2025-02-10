@@ -9,7 +9,7 @@ namespace ConquerSite.Models
         [Key]
         [Column("EntityID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
-        public long EntityID { get; set; }
+        public long? EntityID { get; set; }
 
         [Column("Username")]
         [StringLength(25)]
@@ -23,19 +23,18 @@ namespace ConquerSite.Models
 
         [Column("Email")]
         [StringLength(100)]
-        [Required(ErrorMessage = "O email é obrigatório.")]
         [EmailAddress(ErrorMessage = "Formato de email inválido.")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Column("IP")]
         [StringLength(15)]
         public string? IP { get; set; }
 
         [Column("LastCheck")]
-        public long LastCheck { get; set; }
+        public long? LastCheck { get; set; }
 
         [Column("State")]
-        public byte State { get; set; }
+        public byte? State { get; set; }
 
         [Column("Question")]
         [StringLength(100)]

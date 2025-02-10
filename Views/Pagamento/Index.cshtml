@@ -1,0 +1,58 @@
+﻿@model ConquerSite.Models.StoreModel
+
+@{
+    ViewData["Title"] = "Loja - Depósito";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="bg-primary text-white text-center py-2 rounded">
+                <h5>@ViewData["Title"]</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <p class="text-center mb-3">Quanto você deseja depositar?</p>
+
+                    <form method="post" action="/Pagamento/Deposit">
+                        <div class="mb-3">
+                            @Html.Label("quantity", "Quantidade de Founds:", new { @class = "form-label" })
+                            <input type="number" class="form-control text-center" id="quantity" name="quantity" min="1" max="9999" value="10" required>
+                        </div>
+
+                        <input type="hidden" id="paymentType" name="paymentType" value="PIX">
+                        <input type="hidden" name="price" value="2">
+
+                        <div class="text-center mb-3">
+                            <div class="h5 text-dark">Total: <span class="fw-bold">R$ 2</span></div>
+                        </div>
+
+                        <!-- Exibir QR Code logo após o input -->
+                        @if (Model.QrCodeBase64 != null)
+                        {
+                            <div class="alert alert-info text-center py-2">
+                                <h6 class="mb-2">Pagamento via QR Code</h6>
+                                <p class="mb-2">Escaneie o código abaixo para efetuar o pagamento:</p>
+                                <img src="data:image/png;base64,@Model.QrCodeBase64" alt="QR Code" class="img-fluid rounded shadow-sm" style="max-width: 200px;" />
+                            </div>
+                        }
+
+                        <!-- Botão de Depósito -->
+                        <button type="submit" class="btn btn-success w-100">Depositar</button>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary w-100">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

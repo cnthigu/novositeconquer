@@ -53,3 +53,4 @@ C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\bin\Debug\net8.0\System.Web
 C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\bin\Debug\net8.0\System.Web.WebPages.dll
 C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
 C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\obj\Debug\net8.0\ConquerSite.sourcelink.json

@@ -20,19 +20,9 @@ public class RegistroController : Controller
     [ValidateAntiForgeryToken]
     public ActionResult Register(PlayerModels model)
     {
-        if (ModelState.IsValid)
+        if (string.IsNullOrWhiteSpace(model.Email))
         {
-            var user = new PlayerModels
-            {
-                Username = model.Username,
-                Email = model.Email,
-                Password = model.Password,
-
-            };
-            _context.accounts.Add(user);
-            _context.SaveChanges();
-
-            return RedirectToAction("", "");
+            ModelState.AddModelError("Email", "O email é obrigatório no cadastro.");
         }
 
         if (!ModelState.IsValid)
@@ -44,7 +34,16 @@ public class RegistroController : Controller
             return View(model);
         }
 
-        Console.WriteLine("Modelo inválido");
-        return View(model);
+        var user = new PlayerModels
+        {
+            Username = model.Username,
+            Email = model.Email,
+            Password = model.Password,
+        };
+
+        _context.accounts.Add(user);
+        _context.SaveChanges();
+
+        return RedirectToAction("", "");
     }
 }
