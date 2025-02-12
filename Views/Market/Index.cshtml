@@ -1,94 +1,46 @@
-﻿@model List<ConquerSite.Models.MarketItem>
+﻿<div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px; border: 2px solid #ccc; border-radius: 8px;">
+    <!-- Container do Mercado de Itens -->
+    <div style="flex: 1; margin-right: 20px; max-width: 70%; border-radius: 8px;">
+        <h1 class="title">🎮 Mercado de <span>Itens</span> 💎</h1>
 
-@{
-    ViewData["Title"] = "Mercado de Itens";
-}
+        <!-- Filtros -->
+        <div class="filters">
+            <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
+            <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
+            <input type="number" id="searchPrice" class="filter-input" placeholder="💰 Buscar Preço">
+        </div>
 
-<div class="market-container">
-    <h1 class="title">🎮 Mercado de <span>Itens</span> 💎</h1>
-
-    <!-- Filtros -->
-    <div class="filters">
-        <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
-        <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
-        <input type="number" id="searchPrice" class="filter-input" placeholder="💰 Buscar Preço">
-        <button id="btnClear" class="btn-clear">❌ Limpar Filtros</button>
-    </div>
-
-    <!-- Tabela -->
-    <div class="table-container">
-        <table class="market-table">
-            <thead>
-                <tr>
-                    <th>👤 Jogador</th>
-                    <th>🗡️ Item</th>
-                    <th>💰 Preço (CPS)</th>
-                    <th>📅 Data</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr class="market-item">
-                        <td>@item.PlayerName</td>
-                        <td>@item.ItemName</td>
-                        <td>@item.Price.ToString("#,0") CPS</td>
-                        <td>@item.Timestamp.ToString("dd/MM/yyyy HH:mm")</td>
+        <!-- Tabela -->
+        <div class="table-container">
+            <table class="market-table" style="width: 100%; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
+                <thead>
+                    <tr>
+                        <th>👤 Jogador</th>
+                        <th>🗡️ Item</th>
+                        <th>💎 Price</th>
+                        <th>📅 Data</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="market-item">
+                            <td>@item.PlayerName</td>
+                            <td>@item.ItemName</td>
+                            <td>@item.Price Cps</td>
+                            <td>@item.Timestamp.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
     </div>
 
-    <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
+    <!-- Quadro com Imagem -->
+    <div style="max-width: 28%; border: 2px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
+        <h2 style="text-align: center; margin-bottom: 15px;">Imagem do Mercado</h2>
+        <img src="~/images/transferir.png" alt="Descrição da Imagem" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
 </div>
-
-@section Scripts {
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const searchPlayer = document.getElementById('searchPlayer');
-            const searchItem = document.getElementById('searchItem');
-            const searchPrice = document.getElementById('searchPrice');
-            const btnClear = document.getElementById('btnClear');
-            const itemCount = document.getElementById('itemCount');
-            const rows = document.querySelectorAll('.market-item');
-
-            function filterTable() {
-                const playerFilter = searchPlayer.value.toLowerCase();
-                const itemFilter = searchItem.value.toLowerCase();
-                const priceFilter = searchPrice.value;
-                let visibleCount = 0;
-
-                rows.forEach(row => {
-                    const player = row.cells[0].textContent.toLowerCase();
-                    const item = row.cells[1].textContent.toLowerCase();
-                    const price = row.cells[2].textContent.replace(' CPS', '').replace(/,/g, '');
-
-                    const matchPlayer = player.includes(playerFilter);
-                    const matchItem = item.includes(itemFilter);
-                    const matchPrice = !priceFilter || price.includes(priceFilter);
-
-                    if (matchPlayer && matchItem && matchPrice) {
-                        row.style.display = '';
-                        visibleCount++;
-                    } else {
-                        row.style.display = 'none';
-                    }
-                });
-
-                itemCount.textContent = visibleCount;
-            }
-
-            searchPlayer.addEventListener('input', filterTable);
-            searchItem.addEventListener('input', filterTable);
-            searchPrice.addEventListener('input', filterTable);
-            btnClear.addEventListener('click', function() {
-                searchPlayer.value = '';
-                searchItem.value = '';
-                searchPrice.value = '';
-                rows.forEach(row => row.style.display = '');
-                itemCount.textContent = rows.length;
-            });
-        });
-    </script>
-}

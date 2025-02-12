@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mcsgScZ/KWMLDam1HEaW0vPrERrXzpTTe9j5A3W8jkI=",
+  "Hash": "FsEQ9jZ9MDe8zK51r47/q0LePQN4d+eJe/6BRgbTDPg=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8g8wm7ywki",
-      "Integrity": "yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=",
+      "Fingerprint": "p7qhiqt06o",
+      "Integrity": "C5d2yT6uwBT0QE7NZjZqk+77aSfTB5dK7cFEJlLfZrE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/transferir#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fenbcts2tu",
+      "Integrity": "yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\transferir.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaper.jpg",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/wallpaper#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yrhes07l51",
+      "Integrity": "gmKKW0tceieUST0Ct3ZUzPqPWcpaXdhJ88cHoUoeDao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wallpaper.jpg"
     },
     {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\js\\site.js",
@@ -1485,51 +1527,6 @@
       ]
     },
     {
-      "Route": "css/site.8g8wm7ywki.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:10:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8g8wm7ywki"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1540,7 +1537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10638"
+          "Value": "7671"
         },
         {
           "Name": "Content-Type",
@@ -1548,11 +1545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M=\""
+          "Value": "\"C5d2yT6uwBT0QE7NZjZqk+77aSfTB5dK7cFEJlLfZrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:10:28 GMT"
+          "Value": "Wed, 12 Feb 2025 20:37:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1559,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yGQ5IvWhCKINEXQRminS/qBvNnQJBW7iFtdQ7uW929M="
+          "Value": "sha256-C5d2yT6uwBT0QE7NZjZqk+77aSfTB5dK7cFEJlLfZrE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.p7qhiqt06o.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C5d2yT6uwBT0QE7NZjZqk+77aSfTB5dK7cFEJlLfZrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 20:37:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7qhiqt06o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C5d2yT6uwBT0QE7NZjZqk+77aSfTB5dK7cFEJlLfZrE="
         }
       ]
     },
@@ -1645,6 +1687,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/transferir.fenbcts2tu.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "325895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:29:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fenbcts2tu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/transferir.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg="
+        }
+      ]
+    },
+    {
+      "Route": "images/transferir.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "325895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:29:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallpaper.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmKKW0tceieUST0Ct3ZUzPqPWcpaXdhJ88cHoUoeDao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 20:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmKKW0tceieUST0Ct3ZUzPqPWcpaXdhJ88cHoUoeDao="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallpaper.yrhes07l51.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmKKW0tceieUST0Ct3ZUzPqPWcpaXdhJ88cHoUoeDao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 20:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrhes07l51"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wallpaper.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmKKW0tceieUST0Ct3ZUzPqPWcpaXdhJ88cHoUoeDao="
         }
       ]
     },

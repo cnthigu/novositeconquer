@@ -11,6 +11,7 @@ namespace ConquerSite.Data
 
         public DbSet<PlayerModels> accounts { get; set; }
         public DbSet<MarketItem> marketitems { get; set; }
+        public DbSet<MiningModels> mined_items { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

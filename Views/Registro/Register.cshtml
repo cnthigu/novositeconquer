@@ -4,36 +4,53 @@
     ViewBag.Title = "Registrar";
 }
 
-<h2 class="text-center text-primary mb-4">Registrar</h2>
+<div class="register-container">
+    <div class="register-form">
+        <h2 class="register-title">Criar Conta</h2>
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Username, new { @class = "form-label" })
-        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Escolha um nome de usuário" })
-        @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "registration-form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username, "Nome de Usuário", new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-input", placeholder = "Escolha um nome de usuário" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "validation-message" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, "E-mail", new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-input", placeholder = "Seu e-mail" })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "validation-message" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password, "Senha", new { @class = "form-label" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-input", placeholder = "Sua senha" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "validation-message" })
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="btn-register">
+                    Criar Conta
+                </button>
+                <a href="@Url.Action("Index", "Home")" class="btn-back">
+                    Voltar
+                </a>
+            </div>
+        }
     </div>
+</div>
 
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Email, new { @class = "form-label" })
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Seu e-mail" })
-        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="mb-3">
-        @Html.LabelFor(m => m.Password, new { @class = "form-label" })
-        @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Sua senha" })
-        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <button type="submit" class="btn btn-success btn-lg w-100">Registrar</button>
-        </div>
-        <div class="col-md-6">
-            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary btn-lg w-100">Voltar</a>
-        </div>
-    </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
+      "PackagePath": "staticwebassets\\images\\transferir.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaper.jpg"
+    },
+    {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

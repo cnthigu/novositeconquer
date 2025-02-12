@@ -15,13 +15,6 @@ namespace ConquerSite.Controllers
 
         public IActionResult Index()
         {
-            var user = HttpContext.Session.GetString("User");
-
-            if (string.IsNullOrEmpty(user))
-            {
-                return RedirectToAction("Login", "Login");
-            }
-            ViewBag.User = user; 
             return View();
         }   
 

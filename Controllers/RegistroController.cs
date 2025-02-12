@@ -42,6 +42,7 @@ public class RegistroController : Controller
         };
 
         _context.accounts.Add(user);
+        TempData["SuccessMessage"] = "Conta criada com sucesso! Você pode fazer login agora.";
         _context.SaveChanges();
 
         return RedirectToAction("", "");

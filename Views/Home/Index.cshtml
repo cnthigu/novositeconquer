@@ -1,8 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero">
+    <video class="hero-bg" autoplay loop muted playsinline>
+        <source src="~/videos/hero-background.mp4" type="video/mp4">
+        <!-- Fallback image if video doesn't load -->
+        <img src="http://images.99.com/conquer91e/2007/10/22/co1024_w18stid1w1ma7g.jpg" alt="Conquer Classic Plus background" class="hero-bg">
+    </video>
+
+    <div class="hero-content">
+        <h1 class="hero-title">Welcome to Conquer Classic</h1>
+        <p class="hero-description">
+            Experience the legendary MMORPG reborn. Join thousands of players in an epic adventure filled with PvP battles,
+            guild wars, and endless possibilities.
+        </p>
+        <div class="cta-container">
+            <a href="@Url.Action("Register", "Registro")" class="cta-button cta-primary">
+                Play Now
+            </a>
+            <a href="@Url.Action("Index", "Download")" class="cta-button cta-secondary">
+                Download
+            </a>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        // Ensure video plays on mobile devices
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.querySelector('.hero-bg');
+            if (video) {
+                video.play().catch(function(error) {
+                    console.log("Video autoplay failed:", error);
+                });
+            }
+        });
+    </script>
+}
+

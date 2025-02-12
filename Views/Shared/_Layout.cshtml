@@ -4,73 +4,64 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Conquer</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ConquerSite.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ConquerSite</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header class="header">
+        <div class="header-container">
+            <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">ConquerSite</a>
+            <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <ul class="nav-links" id="navLinks">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Registro" asp-action="Register">Register</a>
+                </li>
 
-                <div class="navbar-collapse collapse d-flex justify-content-center w-100">
+                @{
+                    var user = Context.Session.GetString("User");
+                }
 
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Registro" asp-action="Register">Register</a>
-                        </li>
-
-                        @{
-                            var user = Context.Session.GetString("User");
-                        }
-
-                        <li class="nav-item">
-                            @if (string.IsNullOrEmpty(user))
-                            {
-
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Login">Store</a>
-                            }
-                            else
-                            {
-
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Pagamento" asp-action="Index">Store</a>
-                            }
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Market" asp-action="Index">Market</a>
-                        </li
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Download" asp-action="Index">Download</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Login/Logout no canto direito -->
-                <ul class="navbar-nav ms-auto">
-                    @if (!string.IsNullOrEmpty(user))
+                <li class="nav-item">
+                    @if (string.IsNullOrEmpty(user))
                     {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
-                        </li>
+                        <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Login">Store</a>
                     }
                     else
                     {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
-                        </li>
+                        <a class="nav-link" asp-area="" asp-controller="Pagamento" asp-action="Index">Store</a>
                     }
-                </ul>
-            </div>
-        </nav>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Market" asp-action="Index">Market Live</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Mining" asp-action="Index">Mining</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Download" asp-action="Index">Download</a>
+                </li>
+            </ul>
+
+            <ul class="nav-links">
+                @if (!string.IsNullOrEmpty(user))
+                {
+                    <li class="nav-item">
+                        <a class="login-button" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="login-button" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
+                    </li>
+                }
+            </ul>
+        </div>
     </header>
 
     <div class="container">
@@ -79,15 +70,19 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="footer">
+        <div class="footer-content">
             &copy; 2025 - ConquerSite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('show');
+        }
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
