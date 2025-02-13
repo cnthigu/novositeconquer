@@ -55,7 +55,7 @@ public class LoginController : Controller
         HttpContext.Session.SetString("User", user.Username);
         _logger.LogInformation("Usuário logado com sucesso: {Username}", user.Username);
 
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction("", "Pagamento");
     }
 
     public IActionResult Logout()

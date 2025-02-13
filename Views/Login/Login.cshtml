@@ -1,105 +1,40 @@
 ﻿@model ConquerSite.Models.PlayerModels
 
+@{
+    ViewBag.Title = "Login";
+}
+
 <div class="login-container">
-    <div class="login-card">
-        <h2 class="text-center mb-4">Login</h2>
+    <div class="login-form">
+        <h2 class="login-title">Login</h2>
 
         @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "login-form" }))
         {
             @Html.AntiForgeryToken()
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Username, new { @class = "form-label" })
-                @Html.TextBoxFor(model => model.Username, new { @class = "form-control", placeholder = "Username" })
-                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                @Html.LabelFor(model => model.Username, "Nome de Usuário", new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Username, new { @class = "form-input", placeholder = "Seu nome de usuário" })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "validation-message" })
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Password, new { @class = "form-label" })
-                @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password" })
-                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                @Html.LabelFor(model => model.Password, "Senha", new { @class = "form-label" })
+                @Html.PasswordFor(model => model.Password, new { @class = "form-input", placeholder = "Sua senha" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "validation-message" })
+
             </div>
 
-            <div class="form-group text-center">
-                <button type="submit" class="btn btn-primary">Login</button>
+            <div class="form-group">
+                <button type="submit" class="btn-login">Entrar</button>
             </div>
         }
     </div>
 </div>
 
-<style>
-    .login-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f4f4f9;
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+}
 
-    .login-card {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        max-width: 400px;
-    }
-
-        .login-card h2 {
-            color: #333;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-    .form-group {
-        margin-bottom: 15px;
-    }
-
-    .form-label {
-        font-weight: bold;
-        color: #333;
-        font-size: 14px;
-    }
-
-    .form-control {
-        width: 100%;
-        padding: 10px;
-        border-radius: 4px;
-        border: 1px solid #ccc;
-        font-size: 14px;
-    }
-
-        .form-control:focus {
-            border-color: #007bff;
-            outline: none;
-        }
-
-    .btn {
-        width: 100%;
-        padding: 10px;
-        background-color: #007bff;
-        border: none;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .mb-4 {
-        margin-bottom: 1.5rem;
-    }
-
-    .text-danger {
-        color: #dc3545;
-        font-size: 12px;
-    }
-</style>

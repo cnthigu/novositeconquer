@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qno5n2yqmb"},{"Name":"integrity","Value":"sha256-6pQEG3UkJjblPspTrcnuxUjoFqZHkv7lXrrXI8a\u002BbDg="},{"Name":"label","Value":"_content/ConquerSite/ConquerSite.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00226pQEG3UkJjblPspTrcnuxUjoFqZHkv7lXrrXI8a\u002BbDg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Feb 2025 00:02:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ConquerSite/css/site.6rg790u3ne.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6rg790u3ne"},{"Name":"integrity","Value":"sha256-bmaGV\u002B5S0Sa3Xe8Iy5GHVr3ulTfpiFf1viqqVJzAvYM="},{"Name":"label","Value":"_content/ConquerSite/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9392"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bmaGV\u002B5S0Sa3Xe8Iy5GHVr3ulTfpiFf1viqqVJzAvYM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 00:14:55 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ConquerSite/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bmaGV\u002B5S0Sa3Xe8Iy5GHVr3ulTfpiFf1viqqVJzAvYM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9392"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bmaGV\u002B5S0Sa3Xe8Iy5GHVr3ulTfpiFf1viqqVJzAvYM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 00:14:55 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"36061"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 13:57:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/css/site.n50x6qu52z.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n50x6qu52z"},{"Name":"integrity","Value":"sha256-Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA="},{"Name":"label","Value":"_content/ConquerSite/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36061"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 13:57:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ConquerSite/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

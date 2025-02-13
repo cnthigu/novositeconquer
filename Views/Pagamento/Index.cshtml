@@ -4,55 +4,86 @@
     ViewData["Title"] = "Loja - Depósito";
 }
 
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="bg-primary text-white text-center py-2 rounded">
-                <h5>@ViewData["Title"]</h5>
+<div class="payment-container">
+    <div class="payment-form">
+        <h2 class="payment-title">Depósito de Fundos</h2>
+
+        <form method="post" action="/Pagamento/Deposit" id="paymentForm">
+            <div class="form-group">
+                <label for="quantity" class="form-label">Quantidade de Founds:</label>
+                <input type="number"
+                       class="quantity-input"
+                       id="quantity"
+                       name="quantity"
+                       min="1"
+                       max="9999"
+                       value="10"
+                       required>
             </div>
+
+            <input type="hidden" id="paymentType" name="paymentType" value="PIX">
+            <input type="hidden" name="price" value="2">
+
+            <div class="payment-amount">
+                Total: <span class="amount">R$ 20</span>
+            </div>
+
+            <button type="submit" class="btn-payment">Depositar</button>
+        </form>
+
+        <div class="button-group">
+            <a href="@Url.Action("Index", "Home")" class="btn-back">Voltar</a>
         </div>
     </div>
 </div>
 
-<div class="container mt-3">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <p class="text-center mb-3">Quanto você deseja depositar?</p>
-
-                    <form method="post" action="/Pagamento/Deposit">
-                        <div class="mb-3">
-                            @Html.Label("quantity", "Quantidade de Founds:", new { @class = "form-label" })
-                            <input type="number" class="form-control text-center" id="quantity" name="quantity" min="1" max="9999" value="10" required>
-                        </div>
-
-                        <input type="hidden" id="paymentType" name="paymentType" value="PIX">
-                        <input type="hidden" name="price" value="2">
-
-                        <div class="text-center mb-3">
-                            <div class="h5 text-dark">Total: <span class="fw-bold">R$ 2</span></div>
-                        </div>
-
-                        <!-- Exibir QR Code logo após o input -->
-                        @if (Model.QrCodeBase64 != null)
-                        {
-                            <div class="alert alert-info text-center py-2">
-                                <h6 class="mb-2">Pagamento via QR Code</h6>
-                                <p class="mb-2">Escaneie o código abaixo para efetuar o pagamento:</p>
-                                <img src="data:image/png;base64,@Model.QrCodeBase64" alt="QR Code" class="img-fluid rounded shadow-sm" style="max-width: 200px;" />
-                            </div>
-                        }
-
-                        <!-- Botão de Depósito -->
-                        <button type="submit" class="btn btn-success w-100">Depositar</button>
-                    </form>
-
-                    <div class="text-center mt-3">
-                        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary w-100">Voltar</a>
-                    </div>
-                </div>
-            </div>
+<!-- Modal do QR Code -->
+<div id="qrCodeModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeQRModal()">×</button>
+        <div class="qr-code-container">
+            <h3 class="qr-code-title">QR Code para Pagamento PIX</h3>
+            <p class="qr-code-instructions">Escaneie o código abaixo com seu aplicativo bancário para efetuar o pagamento</p>
+            @if (Model?.QrCodeBase64 != null)
+            {
+                <img src="data:image/png;base64,@Model.QrCodeBase64"
+                     alt="QR Code"
+                     class="qr-code-image" />
+            }
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.getElementById('paymentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Aqui você normalmente faria uma chamada AJAX para gerar o QR code
+            // Para fins de demonstração, vamos apenas mostrar o modal
+            showQRModal();
+        });
+
+        function showQRModal() {
+            document.getElementById('qrCodeModal').style.display = 'flex';
+        }
+
+        function closeQRModal() {
+            document.getElementById('qrCodeModal').style.display = 'none';
+        }
+
+        // Fechar modal ao clicar fora dele
+        document.getElementById('qrCodeModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeQRModal();
+            }
+        });
+
+        // Atualizar valor total quando a quantidade mudar
+        document.getElementById('quantity').addEventListener('input', function(e) {
+            const quantity = parseInt(e.target.value) || 0;
+            const price = 2; // Preço por unidade
+            const total = quantity * price;
+            document.querySelector('.amount').textContent = `R$ ${total}`;
+        });
+    </script>
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Conquer</title>
+    <title>@ViewData["Title"] - ConquerSite</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
@@ -14,65 +14,49 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <ul class="nav-links" id="navLinks">
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Registro" asp-action="Register">Register</a>
-                </li>
-
-                @{
-                    var user = Context.Session.GetString("User");
-                }
-
-                <li class="nav-item">
-                    @if (string.IsNullOrEmpty(user))
-                    {
-                        <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Login">Store</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a class="nav-link" asp-controller="Registro" asp-action="Register">Register</a></li>
+                    @{
+                        var user = Context.Session.GetString("User");
                     }
-                    else
-                    {
-                        <a class="nav-link" asp-area="" asp-controller="Pagamento" asp-action="Index">Store</a>
-                    }
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Market" asp-action="Index">Market Live</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Mining" asp-action="Index">Mining</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-controller="Download" asp-action="Index">Download</a>
-                </li>
-            </ul>
+                    <li>
+                        @if (string.IsNullOrEmpty(user))
+                        {
+                            <a class="nav-link" asp-controller="Login" asp-action="Login">Store</a>
+                        }
+                        else
+                        {
+                            <a class="nav-link" asp-controller="Pagamento" asp-action="Index">Store</a>
+                        }
+                    </li>
+                    <li><a class="nav-link" asp-controller="Market" asp-action="Index">Market Live</a></li>
+                    <li><a class="nav-link" asp-controller="Mining" asp-action="Index">Mining</a></li>
+                    <li><a class="nav-link" asp-controller="Download" asp-action="Index">Download</a></li>
+                </ul>
+            </nav>
 
-            <ul class="nav-links">
+            <div class="auth-buttons">
                 @if (!string.IsNullOrEmpty(user))
                 {
-                    <li class="nav-item">
-                        <a class="login-button" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
-                    </li>
+                    <a class="login-button" asp-controller="Login" asp-action="Logout">Logout</a>
                 }
                 else
                 {
-                    <li class="nav-item">
-                        <a class="login-button" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
-                    </li>
+                    <a class="login-button" asp-controller="Login" asp-action="Login">Login</a>
                 }
-            </ul>
+            </div>
         </div>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main role="main">
+        @RenderBody()
+    </main>
 
     <footer class="footer">
         <div class="footer-content">
-            &copy; 2025 - ConquerSite - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; @DateTime.Now.Year - ConquerSite - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
 
@@ -82,6 +66,7 @@
             navLinks.classList.toggle('show');
         }
     </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
