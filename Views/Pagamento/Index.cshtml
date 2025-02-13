@@ -1,16 +1,16 @@
 ﻿@model ConquerSite.Models.StoreModel
 
 @{
-    ViewData["Title"] = "Loja - Depósito";
+    ViewData["Title"] = "Store - Deposit";
 }
 
 <div class="payment-container">
     <div class="payment-form">
-        <h2 class="payment-title">Depósito de Fundos</h2>
+        <h2 class="payment-title">Deposit Funds</h2>
 
         <form method="post" action="/Pagamento/Deposit" id="paymentForm">
             <div class="form-group">
-                <label for="quantity" class="form-label">Quantidade de Founds:</label>
+                <label for="quantity" class="form-label">Amount of Founds:</label>
                 <input type="number"
                        class="quantity-input"
                        id="quantity"
@@ -22,28 +22,28 @@
             </div>
 
             <input type="hidden" id="paymentType" name="paymentType" value="PIX">
-            <input type="hidden" name="price" value="2">
+            <input type="hidden" id="price" name="price" value="2">
 
             <div class="payment-amount">
-                Total: <span class="amount">R$ 20</span>
+                Total: <span class="amount">R$ @Model.Mount * 2</span>
             </div>
 
-            <button type="submit" class="btn-payment">Depositar</button>
-        </form>
+            <button type="submit" class="btn-payment">Make Deposit</button>
 
-        <div class="button-group">
-            <a href="@Url.Action("Index", "Home")" class="btn-back">Voltar</a>
-        </div>
+            <div class="button-group">
+                <a href="@Url.Action("Index", "Home")" class="btn-back">Back</a>
+            </div>
+        </form>
     </div>
 </div>
 
-<!-- Modal do QR Code -->
-<div id="qrCodeModal" class="modal-overlay" style="display: none;">
+<!-- QR Code Modal -->
+<div id="qrCodeModal" class="modal-overlay" style="display: @(Model?.QrCodeBase64 != null ? "flex" : "none");">
     <div class="modal-content">
         <button class="modal-close" onclick="closeQRModal()">×</button>
         <div class="qr-code-container">
-            <h3 class="qr-code-title">QR Code para Pagamento PIX</h3>
-            <p class="qr-code-instructions">Escaneie o código abaixo com seu aplicativo bancário para efetuar o pagamento</p>
+            <h3 class="qr-code-title">PIX Payment QR Code</h3>
+            <p class="qr-code-instructions">Scan the QR code below with your banking app to complete the payment</p>
             @if (Model?.QrCodeBase64 != null)
             {
                 <img src="data:image/png;base64,@Model.QrCodeBase64"
@@ -56,34 +56,16 @@
 
 @section Scripts {
     <script>
-        document.getElementById('paymentForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Aqui você normalmente faria uma chamada AJAX para gerar o QR code
-            // Para fins de demonstração, vamos apenas mostrar o modal
-            showQRModal();
+        // Update total amount when quantity changes
+        document.getElementById('quantity').addEventListener('input', function(e) {
+            const quantity = parseInt(e.target.value) || 0;
+            const price = parseInt(document.getElementById('price').value) || 0;
+            const total = quantity * price;
+            document.querySelector('.amount').textContent = `R$ ${total}`;
         });
-
-        function showQRModal() {
-            document.getElementById('qrCodeModal').style.display = 'flex';
-        }
 
         function closeQRModal() {
             document.getElementById('qrCodeModal').style.display = 'none';
         }
-
-        // Fechar modal ao clicar fora dele
-        document.getElementById('qrCodeModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closeQRModal();
-            }
-        });
-
-        // Atualizar valor total quando a quantidade mudar
-        document.getElementById('quantity').addEventListener('input', function(e) {
-            const quantity = parseInt(e.target.value) || 0;
-            const price = 2; // Preço por unidade
-            const total = quantity * price;
-            document.querySelector('.amount').textContent = `R$ ${total}`;
-        });
     </script>
 }
