@@ -13,12 +13,704 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
-      "PackagePath": "staticwebassets\\images\\transferir.png"
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\001.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\001.jpg"
     },
     {
-      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaper.jpg",
-      "PackagePath": "staticwebassets\\images\\wallpaper.jpg"
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\002.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\003.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\004.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\005.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\006.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\007.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\008.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\009.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\011.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\012.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\013.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\014.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\015.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\016.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\017.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\018.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\019.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\020.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\021.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\022.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\023.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\024.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\025.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\026.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\026.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\027.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\027.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\028.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\028.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\029.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\029.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\030.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\030.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\031.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\031.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\032.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\032.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\033.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\033.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\034.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\034.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\035.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\036.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\037.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\037.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\038.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\038.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\039.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\039.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\040.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\040.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\041.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\041.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\042.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\042.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\043.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\043.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\044.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\044.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\045.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\045.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\046.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\046.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\047.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\047.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\048.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\048.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\049.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\049.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\050.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\050.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\051.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\051.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\052.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\052.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\053.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\053.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\054.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\054.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\055.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\055.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\056.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\056.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\057.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\057.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\058.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\058.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\059.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\059.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\060.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\060.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\061.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\061.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\062.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\062.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\063.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\063.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\064.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\064.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\065.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\065.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\066.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\066.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\067.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\067.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\068.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\068.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\069.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\069.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\070.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\070.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\071.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\071.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\072.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\072.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\073.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\073.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\074.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\074.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\075.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\075.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\076.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\076.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\077.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\077.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\078.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\078.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\079.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\079.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\080.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\081.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\081.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\082.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\082.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\083.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\083.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\084.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\084.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\085.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\085.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\086.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\086.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\087.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\087.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\088.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\088.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\089.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\089.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\090.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\090.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\091.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\091.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\092.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\092.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\093.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\093.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\094.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\094.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\095.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\095.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\096.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\096.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\097.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\097.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\098.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\098.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\099.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\099.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\100.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\100.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\101.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\101.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\102.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\102.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\103.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\103.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\104.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\104.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\105.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\105.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\106.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\107.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\108.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\108.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\109.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\109.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\110.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\110.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\111.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\112.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\112.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\113.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\113.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\114.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\114.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\115.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\115.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\116.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\116.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\117.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\117.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\118.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\118.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\119.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\119.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\120.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\121.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\122.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\122.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\123.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\123.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\124.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\124.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\125.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\125.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\126.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\126.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\127.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\127.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\128.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\128.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\129.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\130.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\130.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\131.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\131.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\132.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\133.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\134.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\134.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\135.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\135.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\136.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\136.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\137.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\137.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\138.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\138.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\139.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\139.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\140.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\140.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\141.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\141.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\142.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\142.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\143.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\143.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\144.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\144.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\145.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\145.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\146.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\146.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\147.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\147.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\148.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\148.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\149.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\149.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\150.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\151.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\151.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\152.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\152.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\153.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\154.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\154.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\155.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\155.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\156.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\156.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\157.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\157.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\158.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\158.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\159.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\159.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\160.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\161.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\161.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\162.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\162.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\163.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\163.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\164.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\165.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\165.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\166.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\166.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\167.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\167.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\168.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\168.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\169.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\169.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\170.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\170.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\171.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\171.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\172.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\172.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\173.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\173.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\174.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\174.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
+      "PackagePath": "staticwebassets\\images\\transferir.png"
     },
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\js\\site.js",

@@ -1,90 +1,232 @@
 ﻿@model List<ConquerSite.Models.MiningModels>
 
 @{
-    ViewData["Title"] = "Mercado de Itens";
+    ViewData["Title"] = "Mining Lives";
+    int itemsPerPage = 10;
+    int totalPages = (int)Math.Ceiling((double)Model.Count / itemsPerPage);
+    int currentPage = 1;
 }
 
 <div class="market-container">
-    <h1 class="title">🎮 Mercado de <span>Itens</span> 💎</h1>
+    <div class="market-wrapper">
+        <!-- Container principal -->
+        <h1 class="title">🎮 Mercado de <span>Itens</span> 💎</h1>
 
-    <!-- Filtros -->
-    <div class="filters">
-        <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
-        <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
-        <button id="btnClear" class="btn-clear">❌ Limpar Filtros</button>
-    </div>
+        <!-- Filtros -->
+        <div class="filters">
+            <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
+            <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
+            <button id="btnClear" class="btn-clear">❌ Limpar Filtros</button>
+        </div>
 
-    <!-- Tabela -->
-    <div class="table-container">
-        <table class="market-table">
-            <thead>
-                <tr>
-                    <th>👤 Jogador</th>
-                    <th>🗡️ Gem</th>
-                    <th>💰 Time</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr class="market-item">
-                        <td>@item.player_name</td>
-                        <td>@item.item_name</td>
-                        <td>@item.mined_at.ToString("dd/MM/yyyy HH:mm")</td>
+        <!-- Conteúdo da Tabela -->
+        <div class="table-wrapper">
+            <table class="market-table">
+                <thead>
+                    <tr>
+                        <th>👤 Jogador</th>
+                        <th>🗡️ Item</th>
+                        <th>💰 Mineração</th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+                </thead>
+                <tbody id="itemTableBody">
+                    @foreach (var item in Model.Skip((currentPage - 1) * itemsPerPage).Take(itemsPerPage))
+                    {
+                        <tr class="market-item">
+                            <td>
+                                <img src="~/images/avatar/001.jpg" alt="Avatar" class="avatar-img" />
+                                @item.player_name
+                            </td>
+                            <td>@item.item_name</td>
+                            <td>@item.mined_at.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
 
-    <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
+            <!-- Paginação -->
+            <div class="pagination">
+                <button id="prevPage" class="pagination-btn">← Anterior</button>
+                <span id="currentPage">Página @currentPage de @totalPages</span>
+                <button id="nextPage" class="pagination-btn">Próxima →</button>
+            </div>
+        </div>
+
+        <!-- Contagem de Itens -->
+        <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
+    </div>
 </div>
 
 @section Scripts {
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentPage = 1;
+            const itemsPerPage = 10;
+            const totalItems = @Model.Count;
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+            const prevPageButton = document.getElementById('prevPage');
+            const nextPageButton = document.getElementById('nextPage');
+            const currentPageSpan = document.getElementById('currentPage');
+            const tableBody = document.getElementById('itemTableBody');
+            const itemCountSpan = document.getElementById('itemCount');
+
             const searchPlayer = document.getElementById('searchPlayer');
             const searchItem = document.getElementById('searchItem');
             const btnClear = document.getElementById('btnClear');
-            const itemCount = document.getElementById('itemCount');
-            const rows = document.querySelectorAll('.market-item');
 
-            function filterTable() {
-                const playerFilter = searchPlayer.value.toLowerCase();
-                const itemFilter = searchItem.value.toLowerCase();
-                const priceFilter = searchPrice.value;
-                let visibleCount = 0;
+            function updatePage() {
+                tableBody.innerHTML = '';
+                const startIndex = (currentPage - 1) * itemsPerPage;
+                const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+                const filteredItems = @Html.Raw(Json.Serialize(Model))
+                    .filter(item => item.player_name.toLowerCase().includes(searchPlayer.value.toLowerCase()) && item.item_name.toLowerCase().includes(searchItem.value.toLowerCase()))
+                    .slice(startIndex, endIndex);
 
-                rows.forEach(row => {
-                    const player = row.cells[0].textContent.toLowerCase();
-                    const item = row.cells[1].textContent.toLowerCase();
-                    const price = row.cells[2].textContent.replace(' CPS', '').replace(/,/g, '');
-
-                    const matchPlayer = player.includes(playerFilter);
-                    const matchItem = item.includes(itemFilter);
-                    const matchPrice = !priceFilter || price.includes(priceFilter);
-
-                    if (matchPlayer && matchItem && matchPrice) {
-                        row.style.display = '';
-                        visibleCount++;
-                    } else {
-                        row.style.display = 'none';
-                    }
+                filteredItems.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.className = 'market-item';
+                    row.innerHTML = `
+                        <td>
+                            <img src="~/images/avatar/001.jpg" alt="Avatar" class="avatar-img" />
+                            ${item.player_name}
+                        </td>
+                        <td>${item.item_name}</td>
+                        <td>${new Date(item.mined_at).toLocaleString()}</td>
+                    `;
+                    tableBody.appendChild(row);
                 });
 
-                itemCount.textContent = visibleCount;
+                currentPageSpan.textContent = `Página ${currentPage} de ${totalPages}`;
+                prevPageButton.disabled = currentPage === 1;
+                nextPageButton.disabled = currentPage === totalPages;
+                itemCountSpan.textContent = filteredItems.length;
             }
 
-            searchPlayer.addEventListener('input', filterTable);
-            searchItem.addEventListener('input', filterTable);
-            searchPrice.addEventListener('input', filterTable);
-            btnClear.addEventListener('click', function() {
+            prevPageButton.addEventListener('click', function () {
+                if (currentPage > 1) {
+                    currentPage--;
+                    updatePage();
+                }
+            });
+
+            nextPageButton.addEventListener('click', function () {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    updatePage();
+                }
+            });
+
+            searchPlayer.addEventListener('input', updatePage);
+            searchItem.addEventListener('input', updatePage);
+
+            btnClear.addEventListener('click', function () {
                 searchPlayer.value = '';
                 searchItem.value = '';
-                searchPrice.value = '';
-                rows.forEach(row => row.style.display = '');
-                itemCount.textContent = rows.length;
+                updatePage();
+            });
+
+            updatePage();
+
+            var avatars = document.querySelectorAll('.avatar-img');
+            avatars.forEach(function (img) {
+                var randomNumber = Math.floor(Math.random() * 174) + 1;
+                var formattedNumber = ("000" + randomNumber).slice(-3);
+                img.src = "/images/avatar/" + formattedNumber + ".jpg";
             });
         });
     </script>
 }
+
+<style>
+    .market-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .market-wrapper {
+        width: 100%;
+        max-width: 1000px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .filters {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .filter-input {
+        padding: 10px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .btn-clear {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #f44336;
+        color: white;
+        border: none;
+    }
+
+    .table-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .market-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .market-table th, .market-table td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+    .market-item {
+        text-align: center;
+    }
+
+    .avatar-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pagination-btn {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .item-count {
+        text-align: center;
+        font-size: 1.1em;
+    }
+</style>

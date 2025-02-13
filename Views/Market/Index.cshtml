@@ -1,33 +1,162 @@
-﻿<div style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px; border: 2px solid #ccc; border-radius: 8px;">
-    <!-- Container do Mercado de Itens -->
-    <div style="flex: 1; margin-right: 20px; max-width: 70%; border-radius: 8px;">
+﻿<!-- Estilos Inline Ajustados -->
+<style>
+    .market-table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+
+        .market-table th,
+        .market-table td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px; /* Tamanho de fonte reduzido */
+        }
+
+        .market-table th {
+            background-color: #f4f4f4;
+        }
+
+    .market-item:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .market-item:hover {
+        background-color: #f1f1f1;
+    }
+
+    .avatar-img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+
+    .title {
+        font-size: 20px; /* Reduzindo o tamanho do título */
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .filter-input {
+        margin: 8px 5px;
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        width: 100%;
+        max-width: 220px; /* Ajustando o tamanho */
+        font-size: 14px; /* Tamanho da fonte reduzido */
+    }
+
+    .filters {
+        margin-bottom: 15px;
+    }
+
+    .item-count {
+        font-size: 12px;
+        color: #777;
+    }
+
+    .pagination {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+        .pagination button {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            color: #333;
+            padding: 5px 10px;
+            margin: 0 2px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px; /* Tamanho da fonte reduzido */
+            transition: background-color 0.3s;
+        }
+
+            .pagination button:hover {
+                background-color: #e0e0e0;
+            }
+
+            .pagination button:disabled {
+                background-color: #ddd;
+                color: #777;
+                cursor: default;
+            }
+
+    /* Ajustando o layout geral para evitar corte de conteúdo */
+    .market-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        flex-wrap: wrap;
+    }
+
+    .market-left {
+        flex: 1;
+        margin-right: 20px;
+        max-width: 70%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .market-right {
+        max-width: 28%;
+        border: 2px solid #ccc;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-top: 150px;
+    }
+
+    .table-container {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+</style>
+
+<!-- Estrutura HTML Ajustada -->
+<div class="market-container">
+    <div class="market-left">
         <h1 class="title">🎮 Mercado de <span>Itens</span> 💎</h1>
 
         <!-- Filtros -->
-        <div class="filters">
+        <div class="filters" style="text-align: center;">
             <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
             <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
             <input type="number" id="searchPrice" class="filter-input" placeholder="💰 Buscar Preço">
+            <button id="clearFilters" class="filter-input" style="max-width: 220px; background-color: #e0e0e0; border: 1px solid #ccc; cursor: pointer;">Limpar Filtros</button>
         </div>
 
         <!-- Tabela -->
         <div class="table-container">
-            <table class="market-table" style="width: 100%; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
+            <table class="market-table">
                 <thead>
                     <tr>
                         <th>👤 Jogador</th>
                         <th>🗡️ Item</th>
-                        <th>💎 Price</th>
+                        <th>💎 Preço</th>
                         <th>📅 Data</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="marketItems">
                     @foreach (var item in Model)
                     {
                         <tr class="market-item">
-                            <td>@item.PlayerName</td>
+                            <td>
+                                <img src="~/images/avatar/001.jpg" alt="Avatar" class="avatar-img" />
+                                @item.PlayerName
+                            </td>
                             <td>@item.ItemName</td>
-                            <td>@item.Price Cps</td>
+                            <td>@item.Price.ToString("#,0") Cps</td>
                             <td>@item.Timestamp.ToString("dd/MM/yyyy HH:mm")</td>
                         </tr>
                     }
@@ -35,12 +164,133 @@
             </table>
         </div>
 
+        <div id="pagination" class="pagination"></div>
+
         <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
     </div>
 
-    <!-- Quadro com Imagem -->
-    <div style="max-width: 28%; border: 2px solid #ccc; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px;">
-        <h2 style="text-align: center; margin-bottom: 15px;">Imagem do Mercado</h2>
+    <div class="market-right" style="margin-top: -20px;">
+        <h2 style="text-align: center; margin-bottom: 15px;">MARKET</h2>
         <img src="~/images/transferir.png" alt="Descrição da Imagem" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
+
+<!-- Script para Sorteio de Avatares e Paginação -->
+<script>
+    document.getElementById('clearFilters').addEventListener('click', function () {
+        document.getElementById('searchPlayer').value = '';
+        document.getElementById('searchItem').value = '';
+        document.getElementById('searchPrice').value = '';
+        filterItems();
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var avatars = document.querySelectorAll('.avatar-img');
+        avatars.forEach(function(img) {
+            var randomNumber = Math.floor(Math.random() * 174) + 1;
+            var formattedNumber = ("000" + randomNumber).slice(-3);
+            img.src = "/images/avatar/" + formattedNumber + ".jpg";
+        });
+
+        var rowsPerPage = 10;
+        var currentPage = 1;
+        var tableBody = document.querySelector('#marketItems');
+        var rows = Array.from(tableBody.querySelectorAll('tr'));
+        var totalPages = Math.ceil(rows.length / rowsPerPage);
+
+        function showPage(page) {
+            rows.forEach(function(row) {
+                row.style.display = 'none';
+            });
+
+            var start = (page - 1) * rowsPerPage;
+            var end = start + rowsPerPage;
+            rows.slice(start, end).forEach(function(row) {
+                row.style.display = '';
+            });
+        }
+
+        function renderPagination() {
+            var paginationContainer = document.getElementById('pagination');
+            paginationContainer.innerHTML = '';
+
+            var prevBtn = document.createElement('button');
+            prevBtn.textContent = 'Anterior';
+            prevBtn.disabled = (currentPage === 1);
+            prevBtn.addEventListener('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    showPage(currentPage);
+                    renderPagination();
+                }
+            });
+            paginationContainer.appendChild(prevBtn);
+
+            for (var i = 1; i <= totalPages; i++) {
+                var pageBtn = document.createElement('button');
+                pageBtn.textContent = i;
+                if (i === currentPage) {
+                    pageBtn.disabled = true;
+                }
+                (function(page) {
+                    pageBtn.addEventListener('click', function() {
+                        currentPage = page;
+                        showPage(currentPage);
+                        renderPagination();
+                    });
+                })(i);
+                paginationContainer.appendChild(pageBtn);
+            }
+
+            var nextBtn = document.createElement('button');
+            nextBtn.textContent = 'Próximo';
+            nextBtn.disabled = (currentPage === totalPages);
+            nextBtn.addEventListener('click', function() {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    showPage(currentPage);
+                    renderPagination();
+                }
+            });
+            paginationContainer.appendChild(nextBtn);
+        }
+
+        showPage(currentPage);
+        renderPagination();
+
+        function filterItems() {
+            var playerSearch = document.getElementById('searchPlayer').value.toLowerCase();
+            var itemSearch = document.getElementById('searchItem').value.toLowerCase();
+            var priceSearch = document.getElementById('searchPrice').value;
+
+            rows.forEach(function(row) {
+                var playerName = row.querySelector('td:nth-child(1)').textContent.toLowerCase();
+                var itemName = row.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                var itemPrice = row.querySelector('td:nth-child(3)').textContent.replace(' Cps', '').replace(',', '');
+                var showRow = true;
+
+                if (playerSearch && !playerName.includes(playerSearch)) {
+                    showRow = false;
+                }
+
+                if (itemSearch && !itemName.includes(itemSearch)) {
+                    showRow = false;
+                }
+
+                if (priceSearch && itemPrice < priceSearch) {
+                    showRow = false;
+                }
+
+                row.style.display = showRow ? '' : 'none';
+            });
+
+            var filteredRows = Array.from(tableBody.querySelectorAll('tr[style="display: none;"]'));
+            document.getElementById('itemCount').textContent = filteredRows.length;
+        }
+
+        var searchInputs = document.querySelectorAll('.filter-input');
+        searchInputs.forEach(function(input) {
+            input.addEventListener('input', filterItems);
+        });
+    });
+</script>

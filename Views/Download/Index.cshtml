@@ -21,3 +21,105 @@
         </a>
     </div>
 </div>
+
+<style>
+    .download-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        background-color: #f4f4f9;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 36px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+        .title span {
+            color: #007bff;
+        }
+
+    .subtitle {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 40px;
+    }
+
+    .download-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        border: none;
+    }
+
+        .btn-download.full {
+            background-color: #28a745;
+        }
+
+        .btn-download.update {
+            background-color: #ffc107;
+        }
+
+        .btn-download i {
+            margin-right: 8px;
+        }
+
+        .btn-download:hover {
+            transform: scale(1.05);
+        }
+
+        .btn-download.full:hover {
+            background-color: #218838;
+        }
+
+        .btn-download.update:hover {
+            background-color: #e0a800;
+        }
+
+    .back-home {
+        margin-top: 40px;
+    }
+
+    .btn-back {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #007bff;
+        background-color: #fff;
+        border: 2px solid #007bff;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-back i {
+            margin-right: 8px;
+        }
+
+        .btn-back:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+</style>
