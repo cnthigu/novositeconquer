@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Recuperar Conta";
+}
+
+<h2>Recuperar Conta</h2>
+
+@using (Html.BeginForm("Recover", "Registro", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.Label("Email")
+        @Html.TextBox("email", "", new { @class = "form-control" })
+        @Html.ValidationMessage("email", "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Nome")
+        @Html.TextBox("senderName", "", new { @class = "form-control" })
+        @Html.ValidationMessage("senderName", "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar Link de Recuperação</button>
+}

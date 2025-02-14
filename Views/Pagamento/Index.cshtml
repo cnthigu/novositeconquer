@@ -56,18 +56,16 @@
 
 @section Scripts {
     <script>
-        // Update total amount when quantity changes
+
         document.getElementById('quantity').addEventListener('input', function(e) {
             const quantity = parseInt(e.target.value) || 0;
-            const price = 2; // Price per unit
+            const price = 2; 
             const total = quantity * price;
             document.querySelector('.amount').textContent = `R$ ${total}`;
         });
 
         document.getElementById('paymentForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            // Here you would typically make an AJAX call to generate the QR code
-            // For demo purposes, we'll just show the modal
             showQRModal();
         });
 

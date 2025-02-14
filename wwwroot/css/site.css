@@ -356,7 +356,7 @@ main {
 /* Market styles */
 .market-container {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://sjc.microlink.io/s9qqQpHI76Z8s2IPfcyPgt8kT5eH8thws10Nr0cLBC1_8oJyaJ-l2-KtVd_8tAjYwuNtTNyTXYVc7389jkTU4A.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("");
     background-size: cover;
     background-position: center;
     padding: 2rem;

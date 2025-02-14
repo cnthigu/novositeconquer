@@ -5,7 +5,6 @@
 <section class="hero">
     <video class="hero-bg" autoplay loop muted playsinline>
         <source src="~/videos/hero-background.mp4" type="video/mp4">
-        <!-- Fallback image if video doesn't load -->
         <img src="http://images.99.com/conquer91e/2007/10/22/co1024_w18stid1w1ma7g.jpg" alt="Conquer Classic Plus background" class="hero-bg">
     </video>
 
@@ -28,7 +27,6 @@
 
 @section Scripts {
     <script>
-        // Ensure video plays on mobile devices
         document.addEventListener('DOMContentLoaded', function() {
             const video = document.querySelector('.hero-bg');
             if (video) {

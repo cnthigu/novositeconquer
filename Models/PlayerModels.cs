@@ -85,5 +85,8 @@ namespace ConquerSite.Models
 
         [Column("Online")]
         public long? Online { get; set; }
+
+        public string? RecoveryToken { get; set; }
+
     }
 }
