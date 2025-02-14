@@ -1,56 +1,40 @@
 ﻿@model ConquerSite.Models.PlayerModels
 
 @{
-    ViewBag.Title = "Registrar";
+    ViewData["Title"] = "Register";
 }
 
 <div class="register-container">
     <div class="register-form">
-        <h2 class="register-title">Criar Conta</h2>
-
-        @if (TempData["SuccessMessage"] != null)
-        {
-            <div class="alert alert-success">
-                @TempData["SuccessMessage"]
-            </div>
-        }
+        <h2 class="register-title">Create Account</h2>
 
         @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "registration-form" }))
         {
             @Html.AntiForgeryToken()
 
             <div class="form-group">
-                @Html.LabelFor(m => m.Username, "Nome de Usuário", new { @class = "form-label" })
-                @Html.TextBoxFor(m => m.Username, new { @class = "form-input", placeholder = "Escolha um nome de usuário" })
+                @Html.LabelFor(m => m.Username, "Username", new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-input", placeholder = "Choose a username" })
                 @Html.ValidationMessageFor(m => m.Username, "", new { @class = "validation-message" })
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(m => m.Email, "E-mail", new { @class = "form-label" })
-                @Html.TextBoxFor(m => m.Email, new { @class = "form-input", placeholder = "Seu e-mail" })
+                @Html.LabelFor(m => m.Email, "Email", new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-input", placeholder = "Your email" })
                 @Html.ValidationMessageFor(m => m.Email, "", new { @class = "validation-message" })
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(m => m.Password, "Senha", new { @class = "form-label" })
-                @Html.PasswordFor(m => m.Password, new { @class = "form-input", placeholder = "Sua senha" })
+                @Html.LabelFor(m => m.Password, "Password", new { @class = "form-label" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-input", placeholder = "Your password" })
                 @Html.ValidationMessageFor(m => m.Password, "", new { @class = "validation-message" })
             </div>
 
             <div class="button-group">
-                <button type="submit" class="btn-register">
-                    Criar Conta
-                </button>
-                <a href="@Url.Action("Index", "Home")" class="btn-back">
-                    Voltar
-                </a>
+                <button type="submit" class="btn-submit">Create Account</button>
+                <a href="@Url.Action("Index", "Home")" class="btn-back">Back</a>
             </div>
         }
     </div>
 </div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

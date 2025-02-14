@@ -1,7 +1,7 @@
 ﻿@model ConquerSite.Models.PlayerModels
 
 @{
-    ViewBag.Title = "Login";
+    ViewData["Title"] = "Login";
 }
 
 <div class="login-container">
@@ -13,28 +13,19 @@
             @Html.AntiForgeryToken()
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Username, "Nome de Usuário", new { @class = "form-label" })
-                @Html.TextBoxFor(model => model.Username, new { @class = "form-input", placeholder = "Seu nome de usuário" })
-                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "validation-message" })
+                @Html.LabelFor(m => m.Username, "Username", new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-input", placeholder = "Your username" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "validation-message" })
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Password, "Senha", new { @class = "form-label" })
-                @Html.PasswordFor(model => model.Password, new { @class = "form-input", placeholder = "Sua senha" })
-                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "validation-message" })
-
+                @Html.LabelFor(m => m.Password, "Password", new { @class = "form-label" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-input", placeholder = "Your password" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "validation-message" })
             </div>
 
-            <div class="form-group">
-                <button type="submit" class="btn-login">Entrar</button>
-            </div>
+            <button type="submit" class="btn-submit">Login</button>
         }
     </div>
 </div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
 

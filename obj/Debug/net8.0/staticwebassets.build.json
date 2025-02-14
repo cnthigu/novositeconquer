@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/uCwCl8bKByNT1sRRQb55+mt3q/wiTdfNcXtkvjravk=",
+  "Hash": "k8aYPCbj9j2SaxFB7Xm2DgRFLv9uodsus5oW7wOCyXk=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n50x6qu52z",
-      "Integrity": "Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA=",
+      "Fingerprint": "apvvim6nsv",
+      "Integrity": "wsNXJTT/3rDVTOfUuAhITa8bW/rtbF/gFhMBivRaEx0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -5160,6 +5160,51 @@
       ]
     },
     {
+      "Route": "css/site.apvvim6nsv.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsNXJTT/3rDVTOfUuAhITa8bW/rtbF/gFhMBivRaEx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 00:42:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apvvim6nsv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsNXJTT/3rDVTOfUuAhITa8bW/rtbF/gFhMBivRaEx0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -5170,7 +5215,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36061"
+          "Value": "22936"
         },
         {
           "Name": "Content-Type",
@@ -5178,11 +5223,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA=\""
+          "Value": "\"wsNXJTT/3rDVTOfUuAhITa8bW/rtbF/gFhMBivRaEx0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 13:57:21 GMT"
+          "Value": "Fri, 14 Feb 2025 00:42:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5192,52 +5237,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.n50x6qu52z.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "36061"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 13:57:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n50x6qu52z"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cw2PIIED7FpxujfUDAZSd3GjdpCsLmo30GvTM2qyQfA="
+          "Value": "sha256-wsNXJTT/3rDVTOfUuAhITa8bW/rtbF/gFhMBivRaEx0="
         }
       ]
     },

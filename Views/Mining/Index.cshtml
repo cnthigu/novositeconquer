@@ -7,21 +7,18 @@
     int currentPage = 1;
 }
 
-<div class="market-wrapper">
-    <div class="market-wrapper">
-        <!-- Container principal -->
-        <h1 class="title">Live<span>Mining</span> 🗡️</h1>
+<div class="mining-container">
+    <div class="mining-content">
+        <h1 class="mining-title">Live<span>Mining</span> 🗡️</h1>
 
-        <!-- Filtros -->
-        <div class="filters">
+        <div class="mining-filters">
             <input type="text" id="searchPlayer" class="filter-input" placeholder="🔍 Buscar Jogador">
             <input type="text" id="searchItem" class="filter-input" placeholder="🗡️ Buscar Item">
             <button id="btnClear" class="btn-clear">❌ Limpar Filtros</button>
         </div>
 
-        <!-- Conteúdo da Tabela -->
         <div class="table-wrapper">
-            <table class="market-table">
+            <table class="mining-table">
                 <thead>
                     <tr>
                         <th>👤 Jogador</th>
@@ -32,7 +29,7 @@
                 <tbody id="itemTableBody">
                     @foreach (var item in Model.Skip((currentPage - 1) * itemsPerPage).Take(itemsPerPage))
                     {
-                        <tr class="market-item">
+                        <tr class="mining-item">
                             <td>
                                 <img src="~/images/avatar/001.jpg" alt="Avatar" class="avatar-img" />
                                 @item.player_name
@@ -44,16 +41,14 @@
                 </tbody>
             </table>
 
-            <!-- Paginação -->
-            <div class="pagination">
-                <button id="prevPage" class="pagination-btn">← Anterior</button>
+            <div class="mining-pagination">
+                <button id="prevPage" class="mining-pagination-btn">← Anterior</button>
                 <span id="currentPage">Página @currentPage de @totalPages</span>
-                <button id="nextPage" class="pagination-btn">Próxima →</button>
+                <button id="nextPage" class="mining-pagination-btn">Próxima →</button>
             </div>
         </div>
 
-        <!-- Contagem de Itens -->
-        <p class="item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
+        <p class="mining-item-count">Exibindo <span id="itemCount">@Model.Count</span> itens</p>
     </div>
 </div>
 
@@ -85,7 +80,7 @@
 
                 filteredItems.forEach(item => {
                     const row = document.createElement('tr');
-                    row.className = 'market-item';
+                    row.className = 'mining-item';
                     row.innerHTML = `
                         <td>
                             <img src="~/images/avatar/001.jpg" alt="Avatar" class="avatar-img" />

@@ -3,123 +3,57 @@
 }
 
 <div class="download-container">
-    <h1 class="title">🔥 Baixe o <span>CoGolden</span> Agora! 🔥</h1>
-    <p class="subtitle">Escolha a versão e prepare-se para a batalha!</p>
+    <div class="download-content">
+        <h1 class="download-title">🔥 Baixe o <span>CoGolden</span> Agora! 🔥</h1>
+        <p class="download-subtitle">Escolha a versão e prepare-se para a batalha!</p>
 
-    <div class="download-buttons">
-        <a href="URL_DO_DOWNLOAD_COMPLETO" class="btn-download full">
-            <i class="bi bi-download"></i> Cliente Completo
-        </a>
-        <a href="URL_DA_ATUALIZAÇÃO" class="btn-download update">
-            <i class="bi bi-arrow-repeat"></i> Apenas Atualização
-        </a>
-    </div>
+        <div class="download-buttons">
+            <a href="URL_DO_DOWNLOAD_COMPLETO" class="btn-download full">
+                <i class="bi bi-download"></i> Cliente Completo
+                <span class="btn-bg"></span>
+            </a>
+            <a href="URL_DA_ATUALIZAÇÃO" class="btn-download update">
+                <i class="bi bi-arrow-repeat"></i> Apenas Atualização
+                <span class="btn-bg"></span>
+            </a>
+        </div>
 
-    <div class="back-home">
-        <a href="@Url.Action("Index", "Home")" class="btn-back">
-            <i class="bi bi-house-door"></i> Voltar para Home
-        </a>
+        <div class="system-requirements">
+            <h2>Requisitos do Sistema</h2>
+            <ul>
+                <li><strong>SO:</strong> Windows 7/8/10</li>
+                <li><strong>Processador:</strong> Intel Core i3 ou equivalente</li>
+                <li><strong>Memória:</strong> 4 GB RAM</li>
+                <li><strong>Gráficos:</strong> DirectX 11 compatível</li>
+                <li><strong>Armazenamento:</strong> 5 GB de espaço disponível</li>
+            </ul>
+        </div>
+
+        <div class="back-home">
+            <a href="@Url.Action("Index", "Home")" class="btn-back">
+                <i class="bi bi-house-door"></i> Voltar para Home
+                <span class="btn-bg"></span>
+            </a>
+        </div>
     </div>
 </div>
 
-<style>
-    .download-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 100vh;
-        background-color: #f4f4f9;
-        padding: 20px;
-    }
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.btn-download, .btn-back');
 
-    .title {
-        font-size: 36px;
-        color: #333;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
+            buttons.forEach(button => {
+                button.addEventListener('mousemove', function(e) {
+                    const rect = button.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
 
-        .title span {
-            color: #007bff;
-        }
+                    button.style.setProperty('--mouse-x', `${x}px`);
+                    button.style.setProperty('--mouse-y', `${y}px`);
+                });
+            });
+        });
+    </script>
+}
 
-    .subtitle {
-        font-size: 18px;
-        color: #555;
-        margin-bottom: 40px;
-    }
-
-    .download-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .btn-download {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 4px;
-        color: #fff;
-        text-decoration: none;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        border: none;
-    }
-
-        .btn-download.full {
-            background-color: #28a745;
-        }
-
-        .btn-download.update {
-            background-color: #ffc107;
-        }
-
-        .btn-download i {
-            margin-right: 8px;
-        }
-
-        .btn-download:hover {
-            transform: scale(1.05);
-        }
-
-        .btn-download.full:hover {
-            background-color: #218838;
-        }
-
-        .btn-download.update:hover {
-            background-color: #e0a800;
-        }
-
-    .back-home {
-        margin-top: 40px;
-    }
-
-    .btn-back {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #007bff;
-        background-color: #fff;
-        border: 2px solid #007bff;
-        border-radius: 4px;
-        text-decoration: none;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-
-        .btn-back i {
-            margin-right: 8px;
-        }
-
-        .btn-back:hover {
-            background-color: #007bff;
-            color: #fff;
-        }
-</style>
