@@ -9,20 +9,28 @@ namespace ConquerSite.Controllers
 {
     public class PagamentoController : Controller
     {
-        private readonly string PIX_URL = "https://api.asaas.com";
+        private readonly string PIX_URL = "https://api-sandbox.asaas.com";
         private readonly string PIX_KEY = "";
         private readonly string PIX_TOKEN = "";
 
-  
+
         public IActionResult Index()
         {
-            return View(new StoreModel()); 
+            return View(new StoreModel());
         }
 
-      
         [HttpPost]
-        public async Task<IActionResult> Deposit(string username, int quantity)
+        public async Task<IActionResult> Deposit(int quantity)
         {
+            // Recuperar o nome de usuário da sessão
+            string username = HttpContext.Session.GetString("User");
+
+            if (string.IsNullOrEmpty(username))
+            {
+                // Redireciona para o login caso o usuário não esteja logado
+                return RedirectToAction("Login", "Login");
+            }
+
             if (quantity <= 0)
             {
                 ModelState.AddModelError("Quantity", "O valor deve ser maior que zero.");
@@ -33,6 +41,7 @@ namespace ConquerSite.Controllers
             var totalValue = quantity * foundPrice;
             Console.WriteLine($"Total Value: {totalValue}");
 
+            // Cria o QR Code
             var qrCodeBase64 = await CreateQRCodeAsync(username, totalValue);
 
             if (string.IsNullOrEmpty(qrCodeBase64))
@@ -52,6 +61,7 @@ namespace ConquerSite.Controllers
 
             return View("Index", model);
         }
+
 
         private async Task<string> CreateQRCodeAsync(string username, int totalValue)
         {
@@ -99,6 +109,52 @@ namespace ConquerSite.Controllers
                     return null;
                 }
             }
+        }
+
+        // Método para verificar o status do pagamento
+        private async Task<string> CheckPaymentStatusAsync(string externalReference)
+        {
+            using (var client = new HttpClient())
+            {
+                var url = $"{PIX_URL}/v3/payments/{externalReference}";
+                client.DefaultRequestHeaders.Add("access_token", PIX_TOKEN);
+
+                var response = await client.GetAsync(url);
+                var responseBody = await response.Content.ReadAsStringAsync();
+
+                Console.WriteLine($"Response Status: {response.StatusCode}");
+                Console.WriteLine($"Response Body: {responseBody}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var decodedResponse = JsonConvert.DeserializeObject<dynamic>(responseBody);
+                    var status = (string)decodedResponse?.status;
+
+                    if (status == "paid")
+                    {
+                        // A transação foi paga com sucesso
+                        return "Pagamento confirmado!";
+                    }
+                    else
+                    {
+                        // A transação não foi paga ainda
+                        return "Pagamento ainda não confirmado.";
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Erro ao verificar o status: {response.StatusCode} - {responseBody}");
+                    return "Erro ao verificar status.";
+                }
+            }
+        }
+
+        // Exemplo de como você pode usar CheckPaymentStatusAsync após a criação do QR code
+        public async Task<IActionResult> VerifyPaymentStatus(string externalReference)
+        {
+            var status = await CheckPaymentStatusAsync(externalReference);
+            ViewBag.StatusMessage = status;
+            return View("Status"); // Mostra a página com o status
         }
     }
 }
