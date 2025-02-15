@@ -21,8 +21,7 @@ namespace ConquerSite.Controllers
         }
 
         public string GetRandomAvatar()
-        {
-         
+        {         
             Random rand = new Random();
             int avatarId = rand.Next(1, 296);  
             return avatarId.ToString("D3");  

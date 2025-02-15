@@ -4,11 +4,11 @@
     ViewData["Title"] = "Register";
 }
 
-<div class="register-container">
-    <div class="register-form">
-        <h2 class="register-title">Create Account</h2>
+<div class="form-container">
+    <div class="form">
+        <h2 class="form-title">Create Account</h2>
 
-        @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "registration-form" }))
+        @using (Html.BeginForm("Register", "Registro", FormMethod.Post, new { @class = "registration-form" }))
         {
             @Html.AntiForgeryToken()
 

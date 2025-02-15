@@ -4,9 +4,9 @@
     ViewData["Title"] = "Login";
 }
 
-<div class="login-container">
-    <div class="login-form">
-        <h2 class="login-title">Login</h2>
+<div class="form-container">
+    <div class="form">
+        <h2 class="form-title">Login</h2>
 
         @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "login-form" }))
         {
@@ -24,11 +24,16 @@
                 @Html.ValidationMessageFor(m => m.Password, "", new { @class = "validation-message" })
             </div>
 
-            <button type="submit" class="btn-submit">Login</button>
-        }
+            <div class="button-group">
+                <button type="submit" class="btn-submit">Login</button>
+                <a href="@Url.Action("Index", "Home")" class="btn-back">Back</a>
+            </div>
 
-        <div class="recover-account-container">
-            <a href="@Url.Action("RecoverAccount", "Registro")" class="btn-recover">Recuperar Conta</a>
-        </div>
+            <div class="form-links">
+                <a href="@Url.Action("RecoverAccount", "Registro")" class="form-link">Forgot Password?</a>
+                <a href="@Url.Action("Register", "Registro")" class="form-link">Create Account</a>
+            </div>
+        }
     </div>
 </div>
+

@@ -3,13 +3,8 @@
 }
 
 <section class="hero">
-    <video class="hero-bg" autoplay loop muted playsinline>
-        <source src="~/videos/hero-background.mp4" type="video/mp4">
-        <img src="http://images.99.com/conquer91e/2007/10/22/co1024_w18stid1w1ma7g.jpg" alt="Conquer Classic Plus background" class="hero-bg">
-    </video>
-
     <div class="hero-content">
-        <h1 class="hero-title">Welcome to Conquer Classic</h1>
+        <h1 class="hero-title">Welcome to <span class="highlight">Conquer Classic</span></h1>
         <p class="hero-description">
             Experience the legendary MMORPG reborn. Join thousands of players in an epic adventure filled with PvP battles,
             guild wars, and endless possibilities.
@@ -25,16 +20,50 @@
     </div>
 </section>
 
-@section Scripts {
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const video = document.querySelector('.hero-bg');
-            if (video) {
-                video.play().catch(function(error) {
-                    console.log("Video autoplay failed:", error);
-                });
-            }
-        });
-    </script>
-}
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">Why Choose Conquer Classic?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚔️</div>
+                <h3>Epic Battles</h3>
+                <p>Engage in thrilling PvP and PvE combat with players from around the world.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏰</div>
+                <h3>Guild Wars</h3>
+                <p>Form alliances, conquer territories, and rise to power with your fellow warriors.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💎</div>
+                <h3>Rich Economy</h3>
+                <p>Trade, craft, and build your wealth in a player-driven economy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="news">
+    <div class="container">
+        <h2 class="section-title">Latest News</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="/images/news1.jpg" alt="New Update" class="news-image">
+                <div class="news-content">
+                    <h3>Major Update: New Continent Revealed!</h3>
+                    <p>Explore the mysterious lands of Avalon in our latest expansion.</p>
+                    <a href="#" class="news-link">Read More</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="/images/news2.jpg" alt="Tournament" class="news-image">
+                <div class="news-content">
+                    <h3>Annual PvP Tournament Announced</h3>
+                    <p>Prepare for glory in the upcoming Battle of the Realms!</p>
+                    <a href="#" class="news-link">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 

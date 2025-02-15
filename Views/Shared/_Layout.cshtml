@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ConquerSite</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -13,7 +14,6 @@
             <button class="navbar-toggler" type="button" onclick="toggleMenu()">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <nav>
                 <ul class="nav-links" id="navLinks">
                     <li><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
@@ -36,11 +36,13 @@
                     <li><a class="nav-link" asp-controller="Download" asp-action="Index">Download</a></li>
                 </ul>
             </nav>
-
             <div class="auth-buttons">
                 @if (!string.IsNullOrEmpty(user))
                 {
-                    <a class="login-button" asp-controller="Login" asp-action="Logout">Logout</a>
+                    <a class="login-button logged-in" asp-controller="Login" asp-action="Logout">
+                        <img src="/images/user-avatar.png" alt="User Avatar" class="user-avatar" />
+                        Logout
+                    </a>
                 }
                 else
                 {
@@ -56,7 +58,21 @@
 
     <footer class="footer">
         <div class="footer-content">
-            &copy; @DateTime.Now.Year - ConquerSite - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="footer-logo">ConquerSite</div>
+            <div class="footer-links">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; @DateTime.Now.Year ConquerSite. All rights reserved.
+            </div>
         </div>
     </footer>
 

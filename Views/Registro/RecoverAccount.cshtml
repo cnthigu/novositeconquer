@@ -1,24 +1,30 @@
-﻿@{
-    ViewData["Title"] = "Recuperar Conta";
-}
+﻿}
 
-<h2>Recuperar Conta</h2>
+<div class="form-container">
+    <div class="form">
+        <h2 class="form-title">Recuperar Conta</h2>
 
-@using (Html.BeginForm("Recover", "Registro", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
+        @using (Html.BeginForm("Recover", "Registro", FormMethod.Post, new { @class = "recovery-form" }))
+        {
+            @Html.AntiForgeryToken()
 
-    <div class="form-group">
-        @Html.Label("Email")
-        @Html.TextBox("email", "", new { @class = "form-control" })
-        @Html.ValidationMessage("email", "", new { @class = "text-danger" })
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" required placeholder="Seu email">
+                @Html.ValidationMessage("email", "", new { @class = "validation-message" })
+            </div>
+
+            <div class="form-group">
+                <label for="senderName" class="form-label">Nome</label>
+                <input type="text" id="senderName" name="senderName" class="form-input" required placeholder="Seu nome">
+                @Html.ValidationMessage("senderName", "", new { @class = "validation-message" })
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="btn-submit">Enviar Link de Recuperação</button>
+                <a href="@Url.Action("Login", "Login")" class="btn-back">Voltar para Login</a>
+            </div>
+        }
     </div>
+</div>
 
-    <div class="form-group">
-        @Html.Label("Nome")
-        @Html.TextBox("senderName", "", new { @class = "form-control" })
-        @Html.ValidationMessage("senderName", "", new { @class = "text-danger" })
-    </div>
-
-    <button type="submit" class="btn btn-primary">Enviar Link de Recuperação</button>
-}

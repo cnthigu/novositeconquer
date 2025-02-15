@@ -4,9 +4,9 @@
     ViewData["Title"] = "Store - Deposit";
 }
 
-<div class="payment-container">
-    <div class="payment-form">
-        <h2 class="payment-title">Deposit Funds</h2>
+<div class="form-container">
+    <div class="form">
+        <h2 class="form-title">Deposit Funds</h2>
 
         <form method="post" action="/Pagamento/Deposit" id="paymentForm">
             <div class="form-group">
@@ -25,12 +25,11 @@
             <input type="hidden" name="price" value="2">
 
             <div class="payment-amount">
-                Total: <span class="amount">R$ 2</span>
+                Total: <span class="amount">R$ 20</span>
             </div>
 
-            <button type="submit" class="btn-submit">Make Deposit</button>
-
             <div class="button-group">
+                <button type="submit" class="btn-submit">Make Deposit</button>
                 <a href="@Url.Action("Index", "Home")" class="btn-back">Back</a>
             </div>
         </form>
@@ -56,16 +55,18 @@
 
 @section Scripts {
     <script>
-
+        // Update total amount when quantity changes
         document.getElementById('quantity').addEventListener('input', function(e) {
             const quantity = parseInt(e.target.value) || 0;
-            const price = 2; 
+            const price = 2; // Price per unit
             const total = quantity * price;
             document.querySelector('.amount').textContent = `R$ ${total}`;
         });
 
         document.getElementById('paymentForm').addEventListener('submit', function(e) {
             e.preventDefault();
+            // Here you would typically make an AJAX call to generate the QR code
+            // For demo purposes, we'll just show the modal
             showQRModal();
         });
 
