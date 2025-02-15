@@ -13,6 +13,8 @@ namespace ConquerSite.Data
         public DbSet<MarketItem> marketitems { get; set; }
         public DbSet<MiningModels> mined_items { get; set; }
 
+        public DbSet<PaymentRecord> payments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PlayerModels>().ToTable("accounts"); 
