@@ -55,27 +55,6 @@
     <main role="main">
         @RenderBody()
     </main>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">ConquerSite</div>
-            <div class="footer-links">
-                <a asp-controller="Home" asp-action="Index">Home</a>
-                <a asp-controller="Home" asp-action="Privacy">Privacy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="footer-social">
-                <a href="#" class="social-icon">Facebook</a>
-                <a href="#" class="social-icon">Twitter</a>
-                <a href="#" class="social-icon">Instagram</a>
-            </div>
-            <div class="footer-copyright">
-                &copy; @DateTime.Now.Year ConquerSite. All rights reserved.
-            </div>
-        </div>
-    </footer>
-
     <script>
         function toggleMenu() {
             const navLinks = document.getElementById('navLinks');

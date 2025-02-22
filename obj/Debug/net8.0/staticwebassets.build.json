@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tuyZOktn+3aKCHBJV8vJr31Q/CDSSNSrnQI8Ad/KGZM=",
+  "Hash": "+jok+2dn6Wni2FQoVtoBm0zi+LPc8FNKWiS26bSU5rM=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -4992,6 +4992,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "Patch/1#[.{fingerprint}]?.rar",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dc3s0vizlv",
+      "Integrity": "7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Patch\\1.rar"
     }
   ],
   "Endpoints": [
@@ -5018,7 +5039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5055,7 +5076,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5100,7 +5121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5145,7 +5166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5182,7 +5203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 16:45:19 GMT"
+          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5219,7 +5240,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 16:45:19 GMT"
+          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24426,6 +24447,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "Patch/1.dc3s0vizlv.rar",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dc3s0vizlv"
+        },
+        {
+          "Name": "label",
+          "Value": "Patch/1.rar"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
+        }
+      ]
+    },
+    {
+      "Route": "Patch/1.rar",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
         }
       ]
     }

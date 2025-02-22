@@ -4,55 +4,68 @@
     ViewData["Title"] = "Loja - Depósito";
 }
 
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="bg-primary text-white text-center py-2 rounded">
-                <h5>@ViewData["Title"]</h5>
+<div class="form-container">
+    <div class="form">
+        <h2 class="form-title">@ViewData["Title"]</h2>
+
+        <p class="text-center mb-3">Quanto você deseja depositar?</p>
+
+        <form method="post" action="/Pagamento/Deposit" oninput="updateTotal()">
+            <div class="form-group">
+                <label for="quantity" class="form-label">Quantidade de Founds:</label>
+                <input type="number" class="form-input" id="quantity" name="quantity" min="1" max="9999" value="10" required oninput="updateTotal()" />
             </div>
-        </div>
-    </div>
-</div>
 
-<div class="container mt-3">
-    <div class="row justify-content-center">
-        <div class="col-md-4">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <p class="text-center mb-3">Quanto você deseja depositar?</p>
+            <input type="hidden" id="paymentType" name="paymentType" value="PIX" />
+            <input type="hidden" id="price" name="price" value="20" />
 
-                    <form method="post" action="/Pagamento/Deposit">
-                        <div class="mb-3">
-                            @Html.Label("quantity", "Quantidade de Founds:", new { @class = "form-label" })
-                            <input type="number" class="form-control text-center" id="quantity" name="quantity" min="1" max="9999" value="10" required>
-                        </div>
+            <div class="payment-amount">
+                <div>Total: <span class="fw-bold" id="totalAmount">R$ 20</span></div>
+            </div>
 
-                        <input type="hidden" id="paymentType" name="paymentType" value="PIX">
-                        <input type="hidden" name="price" value="2">
-
-                        <div class="text-center mb-3">
-                            <div class="h5 text-dark">Total: <span class="fw-bold">R$ 2</span></div>
-                        </div>
-
-                        <!-- Exibir QR Code logo após o input -->
-                        @if (Model.QrCodeBase64 != null)
-                        {
-                            <div class="alert alert-info text-center py-2">
-                                <h6 class="mb-2">Pagamento via QR Code</h6>
-                                <p class="mb-2">Escaneie o código abaixo para efetuar o pagamento:</p>
-                                <img src="data:image/png;base64,@Model.QrCodeBase64" alt="QR Code" class="img-fluid rounded shadow-sm" style="max-width: 200px;" />
-                            </div>
-                        }
-
-                        <!-- Botão de Depósito -->
-                        <button type="submit" class="btn btn-success w-100">Depositar</button>
-                    </form>
-
-                    <div class="text-center mt-3">
-                        <a href="@Url.Action("Index", "Home")" class="btn btn-outline-primary w-100">Voltar</a>
-                    </div>
+            @if (!string.IsNullOrEmpty(Model.QrCodeBase64))
+            {
+                <div class="qr-code-container">
+                    <h6 class="qr-code-title">Pagamento via QR Code</h6>
+                    <p class="qr-code-instructions">Escaneie o código abaixo para efetuar o pagamento:</p>
+                    <img src="data:image/png;base64,@Model.QrCodeBase64" alt="QR Code" class="qr-code-image" />
                 </div>
-            </div>
-        </div>
+
+                <!-- Exibir o botão "Voltar" caso o QR Code já tenha sido gerado -->
+                <div class="button-group">
+                    <a href="@Url.Action("Index", "Home")" class="btn-back">Voltar</a>
+                </div>
+            }
+            else
+            {
+                <!-- Caso o QR Code ainda não tenha sido gerado, exibe o botão "Depositar" -->
+                <div class="button-group">
+                    <button type="submit" class="btn-submit" onclick="saveQuantity()">Depositar</button>
+                    <a href="@Url.Action("Index", "Home")" class="btn-back">Voltar</a>
+                </div>
+            }
+        </form>
     </div>
 </div>
+
+<script>
+    function updateTotal() {
+        let quantity = document.getElementById('quantity').value || 0;
+        let total = quantity * 2;
+        document.getElementById('totalAmount').innerText = `R$ ${total}`;
+        document.getElementById('price').value = total;
+    }
+
+    function saveQuantity() {
+        let quantity = document.getElementById('quantity').value;
+        localStorage.setItem('depositQuantity', quantity);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let savedQuantity = localStorage.getItem('depositQuantity');
+        if (savedQuantity) {
+            document.getElementById('quantity').value = savedQuantity;
+            updateTotal();
+        }
+    });
+</script>

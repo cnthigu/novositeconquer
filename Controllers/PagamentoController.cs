@@ -41,10 +41,24 @@ namespace ConquerSite.Controllers
             var totalValue = quantity * foundPrice;
             Console.WriteLine($"Total Value: {totalValue}");
 
-            // Cria o QR Code
-            var qrCodeBase64 = await CreateQRCodeAsync(username, totalValue);
+            // Se o QR Code já foi gerado, retorna com ele
+            if (HttpContext.Session.GetString("QrCodeBase64") != null)
+            {
+                // Recupera o QR Code da sessão
+                string qrCodeBase64 = HttpContext.Session.GetString("QrCodeBase64");
+                var model = new StoreModel
+                {
+                    Mount = quantity,
+                    QrCodeBase64 = qrCodeBase64
+                };
 
-            if (string.IsNullOrEmpty(qrCodeBase64))
+                return View("Index", model);
+            }
+
+            // Cria o QR Code
+            var newQrCodeBase64 = await CreateQRCodeAsync(username, totalValue);
+
+            if (string.IsNullOrEmpty(newQrCodeBase64))
             {
                 Console.WriteLine("Falha na geração do QR Code");
                 ModelState.AddModelError("QrCode", "Erro ao gerar o QR Code.");
@@ -53,14 +67,18 @@ namespace ConquerSite.Controllers
 
             Console.WriteLine("QR Code gerado com sucesso!");
 
-            var model = new StoreModel
+            // Salva o QR Code gerado na sessão
+            HttpContext.Session.SetString("QrCodeBase64", newQrCodeBase64);
+
+            var modelToReturn = new StoreModel
             {
                 Mount = quantity,
-                QrCodeBase64 = qrCodeBase64
+                QrCodeBase64 = newQrCodeBase64
             };
 
-            return View("Index", model);
+            return View("Index", modelToReturn);
         }
+
 
 
         private async Task<string> CreateQRCodeAsync(string username, int totalValue)

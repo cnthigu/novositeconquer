@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,13 +74,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 00:02:46 GMT"
+          "Value": "Sat, 22 Feb 2025 09:54:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-6pQEG3UkJjblPspTrcnuxUjoFqZHkv7lXrrXI8a+bDg="
+        }
+      ]
+    },
+    {
+      "Route": "Patch/1.dc3s0vizlv.rar",
+      "AssetFile": "Patch/1.rar",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dc3s0vizlv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
+        },
+        {
+          "Name": "label",
+          "Value": "Patch/1.rar"
+        }
+      ]
+    },
+    {
+      "Route": "Patch/1.rar",
+      "AssetFile": "Patch/1.rar",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
         }
       ]
     },
@@ -111,7 +193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 16:45:19 GMT"
+          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
         }
       ],
       "EndpointProperties": [
@@ -148,7 +230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 15 Feb 2025 16:45:19 GMT"
+          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
         }
       ],
       "EndpointProperties": [
