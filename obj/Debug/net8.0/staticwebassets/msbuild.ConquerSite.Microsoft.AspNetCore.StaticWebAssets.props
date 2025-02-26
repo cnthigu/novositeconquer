@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h4l4cpo2v9</Fingerprint>
-      <Integrity>8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=</Integrity>
+      <Fingerprint>3ej3vxe2uq</Fingerprint>
+      <Integrity>64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -4248,6 +4248,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\patch.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ConquerSite</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ConquerSite</BasePath>
+      <RelativePath>patch.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3116o66r4h</Fingerprint>
+      <Integrity>SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\patch.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Patch\1.rar'))">
       <SourceType>Package</SourceType>
       <SourceId>ConquerSite</SourceId>
@@ -4260,8 +4278,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dc3s0vizlv</Fingerprint>
-      <Integrity>7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=</Integrity>
+      <Fingerprint>2tbzt3140r</Fingerprint>
+      <Integrity>eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Patch\1.rar'))</OriginalItemSpec>

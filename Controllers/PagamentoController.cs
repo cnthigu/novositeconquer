@@ -10,8 +10,8 @@ namespace ConquerSite.Controllers
     public class PagamentoController : Controller
     {
         private readonly string PIX_URL = "https://api-sandbox.asaas.com";
-        private readonly string PIX_KEY = "";
-        private readonly string PIX_TOKEN = "";
+        private readonly string PIX_KEY = "ce87b739-8da2-4766-ba14-4e83565f0106";
+        private readonly string PIX_TOKEN = "$aact_MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmQ2ZmQ4YzZlLTUxYTUtNDA4MS1hOTk1LWJhNzIxOWY2NTg4Mzo6JGFhY2hfNDZlZWU3OWQtNWNhYy00MWY5LThiM2EtNzY5YTNiMjk5MTJj";
 
 
         public IActionResult Index()

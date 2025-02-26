@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+jok+2dn6Wni2FQoVtoBm0zi+LPc8FNKWiS26bSU5rM=",
+  "Hash": "9GBGINshKZmT4lKCEjv8gOeh9uOKFHDd1I7TlIOoakM=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h4l4cpo2v9",
-      "Integrity": "8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=",
+      "Fingerprint": "3ej3vxe2uq",
+      "Integrity": "64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4994,6 +4994,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\patch.txt",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "patch#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3116o66r4h",
+      "Integrity": "SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\patch.txt"
+    },
+    {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
       "SourceId": "ConquerSite",
       "SourceType": "Discovered",
@@ -5008,8 +5029,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dc3s0vizlv",
-      "Integrity": "7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=",
+      "Fingerprint": "2tbzt3140r",
+      "Integrity": "eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Patch\\1.rar"
@@ -5181,6 +5202,51 @@
       ]
     },
     {
+      "Route": "css/site.3ej3vxe2uq.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 21:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ej3vxe2uq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -5191,7 +5257,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22524"
+          "Value": "22646"
         },
         {
           "Name": "Content-Type",
@@ -5199,11 +5265,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=\""
+          "Value": "\"64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
+          "Value": "Wed, 26 Feb 2025 21:11:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5213,52 +5279,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.h4l4cpo2v9.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22524"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h4l4cpo2v9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE="
+          "Value": "sha256-64eBWpgKM50WCLocRJi/ibaM3IYyhN5vMuHcuKUVojc="
         }
       ]
     },
@@ -24451,8 +24472,8 @@
       ]
     },
     {
-      "Route": "Patch/1.dc3s0vizlv.rar",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
+      "Route": "patch.3116o66r4h.txt",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\patch.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24461,19 +24482,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "68"
+          "Value": "17"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "text/plain"
         },
         {
           "Name": "ETag",
-          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+          "Value": "\"SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+          "Value": "Sat, 22 Feb 2025 17:04:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24483,7 +24504,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dc3s0vizlv"
+          "Value": "3116o66r4h"
+        },
+        {
+          "Name": "label",
+          "Value": "patch.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc="
+        }
+      ]
+    },
+    {
+      "Route": "patch.txt",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\patch.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 17:04:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc="
+        }
+      ]
+    },
+    {
+      "Route": "Patch/1.2tbzt3140r.rar",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 17:10:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2tbzt3140r"
         },
         {
           "Name": "label",
@@ -24491,7 +24594,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
+          "Value": "sha256-eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw="
         }
       ]
     },
@@ -24506,7 +24609,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "68"
+          "Value": "63"
         },
         {
           "Name": "Content-Type",
@@ -24514,11 +24617,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic=\""
+          "Value": "\"eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 18:15:59 GMT"
+          "Value": "Sat, 22 Feb 2025 17:10:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24528,7 +24631,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7btAmoRei695aMo7j3oQr6GI9ny3GoJfpTxSjvt1Wic="
+          "Value": "sha256-eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw="
         }
       ]
     }
