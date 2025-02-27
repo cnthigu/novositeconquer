@@ -1,0 +1,680 @@
+﻿@{
+    ViewData["Title"] = "RPG OrigensCO";
+    Layout = "_Layout";
+}
+
+<div class="wiki-container">
+    <!-- Wiki Sidebar Navigation -->
+    <aside class="wiki-sidebar">
+
+
+        <nav class="wiki-nav">
+            <div class="wiki-nav-title">Wiki Navigation</div>
+            <ul class="wiki-nav-list">
+                <li class="wiki-nav-item active">
+                    <a href="#overview" class="wiki-nav-link">Home</a>
+                </li>
+                <li class="wiki-nav-item">
+                    <a href="#vip" class="wiki-nav-link">VIP</a>
+                    <ul class="wiki-subnav-list">
+                        <li><a href="#vip-benefits" class="wiki-subnav-link">VIP Benefits</a></li>
+                        <li><a href="#vip-levels" class="wiki-subnav-link">VIP Levels</a></li>
+                    </ul>
+                </li>
+                <li class="wiki-nav-item">
+                    <a href="#store" class="wiki-nav-link">Store</a>
+                    <ul class="wiki-subnav-list">
+                        <li><a href="#weapons" class="wiki-subnav-link">Weapons</a></li>
+                        <li><a href="#armor" class="wiki-subnav-link">Armor</a></li>
+                        <li><a href="#consumables" class="wiki-subnav-link">Consumables</a></li>
+                    </ul>
+                </li>
+                <li class="wiki-nav-item">
+                    <a href="#quests" class="wiki-nav-link">Quests</a>
+                    <ul class="wiki-subnav-list">
+                        <li><a href="#main-quests" class="wiki-subnav-link">Main Quests</a></li>
+                        <li><a href="#side-quests" class="wiki-subnav-link">Side Quests</a></li>
+                        <li><a href="#daily-quests" class="wiki-subnav-link">Daily Quests</a></li>
+                    </ul>
+                </li>
+                <li class="wiki-nav-item">
+                    <a href="#events" class="wiki-nav-link">Events</a>
+                    <ul class="wiki-subnav-list">
+                        <li><a href="#seasonal-events" class="wiki-subnav-link">Seasonal Events</a></li>
+                        <li><a href="#special-events" class="wiki-subnav-link">Special Events</a></li>
+                    </ul>
+                </li>
+                <li class="wiki-nav-item">
+                    <a href="#news" class="wiki-nav-link">News</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <div class="wiki-contribute">
+            <div class="wiki-contribute-title">Contribute</div>
+            <a href="#" class="wiki-contribute-button">Edit Page</a>
+            <a href="#" class="wiki-contribute-button">Add Content</a>
+        </div>
+    </aside>
+
+    <!-- Wiki Main Content -->
+    <main class="wiki-content">
+        <div class="wiki-breadcrumbs">
+            <a href="/" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">/</span>
+            <a href="/wiki" class="breadcrumb-link">Wiki</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">Overview</span>
+        </div>
+
+        <section id="overview" class="wiki-section">
+            <div class="wiki-section-header">
+                <h1 class="wiki-title">OrigensCO Wiki</h1>
+                <div class="wiki-last-updated">Last updated: @DateTime.Now.ToString("MMMM dd, yyyy")</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <div class="wiki-intro">
+                    <p>Welcome to the official OrgiensCO Wiki, your ultimate guide to the epic world of Conquer Online Classic! Celebrating a decade of excellence, OrgiensCO continues to deliver an authentic and stable experience, running seamlessly on its upgraded .NET source while preserving the classic 5095 client. Here, you'll find everything about legendary warriors, intense battles, and mystical realms. Explore detailed information on stores, quests, events, news, and VIP benefits, along with strategic tips to master this timeless RPG released by NetDragon in 2004.</p>
+                </div>
+
+                <div class="wiki-featured">
+                    <div class="wiki-featured-title">Featured Content</div>
+                    <div class="wiki-featured-grid">
+                        <a href="#store" class="wiki-featured-card">
+                            <div class="wiki-featured-icon">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <h3>Store</h3>
+                            <p>Discover powerful weapons, armor, and items</p>
+                        </a>
+                        <a href="#quests" class="wiki-featured-card">
+                            <div class="wiki-featured-icon">
+                                <i class="fas fa-scroll"></i>
+                            </div>
+                            <h3>Quests</h3>
+                            <p>Embark on epic adventures and challenges</p>
+                        </a>
+                        <a href="#events" class="wiki-featured-card">
+                            <div class="wiki-featured-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h3>Events</h3>
+                            <p>Participate in limited-time events</p>
+                        </a>
+                        <a href="#news" class="wiki-featured-card">
+                            <div class="wiki-featured-icon">
+                                <i class="fas fa-newspaper"></i>
+                            </div>
+                            <h3>News</h3>
+                            <p>Stay updated with the latest announcements</p>
+                        </a>
+                        <a href="#vip" class="wiki-featured-card">
+                            <div class="wiki-featured-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3>VIP</h3>
+                            <p>Unlock exclusive benefits and rewards</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="store" class="wiki-section">
+            <div class="wiki-section-header">
+                <h2 class="wiki-section-title">Store</h2>
+                <div class="wiki-section-subtitle">Equip yourself with legendary gear</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <p>The Dragon Realm Store offers a wide variety of items to help you on your journey. From powerful weapons forged by master blacksmiths to mystical armor imbued with ancient magic, you'll find everything you need to become a legendary warrior.</p>
+
+                <div id="weapons" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Weapons</h3>
+                    <div class="wiki-table-container">
+                        <table class="wiki-table">
+                            <thead>
+                                <tr>
+                                    <th>Weapon</th>
+                                    <th>Type</th>
+                                    <th>Damage</th>
+                                    <th>Level Req.</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dragon Fang Katana</td>
+                                    <td>Sword</td>
+                                    <td>120-150</td>
+                                    <td>30</td>
+                                    <td>5,000 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Crimson Flame Bow</td>
+                                    <td>Bow</td>
+                                    <td>90-130</td>
+                                    <td>25</td>
+                                    <td>4,200 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Shadow Assassin Daggers</td>
+                                    <td>Daggers</td>
+                                    <td>75-95</td>
+                                    <td>20</td>
+                                    <td>3,800 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Celestial Staff</td>
+                                    <td>Staff</td>
+                                    <td>110-140</td>
+                                    <td>28</td>
+                                    <td>4,800 Gold</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="armor" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Armor</h3>
+                    <div class="wiki-table-container">
+                        <table class="wiki-table">
+                            <thead>
+                                <tr>
+                                    <th>Armor</th>
+                                    <th>Type</th>
+                                    <th>Defense</th>
+                                    <th>Level Req.</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Samurai Commander Set</td>
+                                    <td>Heavy</td>
+                                    <td>180</td>
+                                    <td>35</td>
+                                    <td>7,500 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Dragon Scale Armor</td>
+                                    <td>Medium</td>
+                                    <td>150</td>
+                                    <td>30</td>
+                                    <td>6,200 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Shadow Silk Robes</td>
+                                    <td>Light</td>
+                                    <td>100</td>
+                                    <td>25</td>
+                                    <td>4,500 Gold</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="consumables" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Consumables</h3>
+                    <div class="wiki-table-container">
+                        <table class="wiki-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Effect</th>
+                                    <th>Duration</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dragon's Breath Potion</td>
+                                    <td>+50% Attack Power</td>
+                                    <td>30 minutes</td>
+                                    <td>1,200 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Imperial Tea</td>
+                                    <td>+30% XP Gain</td>
+                                    <td>60 minutes</td>
+                                    <td>1,500 Gold</td>
+                                </tr>
+                                <tr>
+                                    <td>Warrior's Feast</td>
+                                    <td>+100 HP Regeneration</td>
+                                    <td>45 minutes</td>
+                                    <td>900 Gold</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quests" class="wiki-section">
+            <div class="wiki-section-header">
+                <h2 class="wiki-section-title">Quests</h2>
+                <div class="wiki-section-subtitle">Embark on epic adventures</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <p>Quests in Dragon Realm offer exciting adventures, challenging battles, and valuable rewards. From the main storyline that unveils the ancient secrets of the realm to daily quests that provide consistent rewards, there's always something to do for warriors of all levels.</p>
+
+                <div id="main-quests" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Main Quests</h3>
+                    <div class="wiki-quest-list">
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">The Dragon Emperor's Legacy</h4>
+                                <div class="wiki-quest-level">Level 10-20</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>Uncover the ancient secrets of the Dragon Emperor and claim his legendary weapons as your own. This epic questline will take you through the forbidden temples of the Eastern Mountains.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 5,000 Gold</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 10,000 XP</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-shield-alt"></i> Dragon Emperor's Gauntlets</span>
+                            </div>
+                        </div>
+
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">Shadows of the Shogun</h4>
+                                <div class="wiki-quest-level">Level 25-35</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>A dark force threatens the Jade Kingdom as the ancient Shogun rises from his grave. Stop his undead army before they conquer the realm.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 8,000 Gold</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 15,000 XP</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-sword"></i> Shogun's Shadow Blade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="side-quests" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Side Quests</h3>
+                    <div class="wiki-quest-list">
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">The Lost Scrolls</h4>
+                                <div class="wiki-quest-level">Level 15+</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>Recover the ancient scrolls of wisdom scattered throughout the realm. Each scroll contains powerful knowledge that can enhance your abilities.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 1,200 Gold per scroll</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 2,000 XP per scroll</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-book"></i> Skill Point (after collecting all scrolls)</span>
+                            </div>
+                        </div>
+
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">The Ronin's Honor</h4>
+                                <div class="wiki-quest-level">Level 20+</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>Help a disgraced ronin reclaim his honor by defeating the bandits who framed him. This quest chain explores the deeper meaning of the warrior's code.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 3,500 Gold</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 5,000 XP</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-helmet-battle"></i> Ronin's Headband</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="daily-quests" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Daily Quests</h3>
+                    <div class="wiki-quest-list">
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">Dragon Hunting</h4>
+                                <div class="wiki-quest-level">Level 10+</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>Hunt down wild dragons that threaten local villages. The type and strength of dragons depend on your level.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 800 Gold</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 1,200 XP</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-gem"></i> Dragon Essence</span>
+                            </div>
+                        </div>
+
+                        <div class="wiki-quest-item">
+                            <div class="wiki-quest-header">
+                                <h4 class="wiki-quest-title">Imperial Deliveries</h4>
+                                <div class="wiki-quest-level">All Levels</div>
+                            </div>
+                            <div class="wiki-quest-description">
+                                <p>Deliver important messages and packages between cities for the Imperial Messenger Service. A simple but rewarding daily task.</p>
+                            </div>
+                            <div class="wiki-quest-rewards">
+                                <span class="wiki-quest-reward"><i class="fas fa-coins"></i> 500 Gold</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-star"></i> 800 XP</span>
+                                <span class="wiki-quest-reward"><i class="fas fa-scroll"></i> Random Consumable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="wiki-section">
+            <div class="wiki-section-header">
+                <h2 class="wiki-section-title">Events</h2>
+                <div class="wiki-section-subtitle">Limited-time challenges and celebrations</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <p>Dragon Realm hosts various events throughout the year, offering unique challenges, exclusive rewards, and festive celebrations. Keep an eye on the event calendar to make sure you don't miss out on these limited-time opportunities.</p>
+
+                <div id="seasonal-events" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Seasonal Events</h3>
+                    <div class="wiki-event-list">
+                        <div class="wiki-event-item">
+                            <div class="wiki-event-image">
+                                <img src="/images/events/lunar-festival.jpg" alt="Lunar Festival" class="wiki-event-img">
+                            </div>
+                            <div class="wiki-event-content">
+                                <h4 class="wiki-event-title">Lunar New Year Festival</h4>
+                                <div class="wiki-event-period">January/February (2 weeks)</div>
+                                <div class="wiki-event-description">
+                                    <p>Celebrate the Lunar New Year with special decorations, fireworks, and unique quests. Collect red envelopes for special rewards and participate in the Dragon Dance ceremony.</p>
+                                </div>
+                                <div class="wiki-event-rewards">
+                                    <div class="wiki-event-reward-title">Notable Rewards:</div>
+                                    <ul class="wiki-event-reward-list">
+                                        <li>Lunar Dragon Pet</li>
+                                        <li>Festive Costume Set</li>
+                                        <li>Firework Launcher</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wiki-event-item">
+                            <div class="wiki-event-image">
+                                <img src="/images/events/cherry-blossom.jpg" alt="Cherry Blossom Festival" class="wiki-event-img">
+                            </div>
+                            <div class="wiki-event-content">
+                                <h4 class="wiki-event-title">Cherry Blossom Festival</h4>
+                                <div class="wiki-event-period">April (10 days)</div>
+                                <div class="wiki-event-description">
+                                    <p>Experience the beauty of cherry blossoms throughout the realm. Special romantic quests, poetry competitions, and sakura-themed items are available during this peaceful celebration.</p>
+                                </div>
+                                <div class="wiki-event-rewards">
+                                    <div class="wiki-event-reward-title">Notable Rewards:</div>
+                                    <ul class="wiki-event-reward-list">
+                                        <li>Cherry Blossom Glider</li>
+                                        <li>Poet's Brush and Scroll</li>
+                                        <li>Sakura Armor Dye</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="special-events" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">Special Events</h3>
+                    <div class="wiki-event-list">
+                        <div class="wiki-event-item">
+                            <div class="wiki-event-image">
+                                <img src="/images/events/dragon-tournament.jpg" alt="Dragon Tournament" class="wiki-event-img">
+                            </div>
+                            <div class="wiki-event-content">
+                                <h4 class="wiki-event-title">Grand Dragon Tournament</h4>
+                                <div class="wiki-event-period">Every 3 months (1 week)</div>
+                                <div class="wiki-event-description">
+                                    <p>Test your combat skills against other players in this prestigious tournament. Compete in various categories including duels, team battles, and special challenge modes.</p>
+                                </div>
+                                <div class="wiki-event-rewards">
+                                    <div class="wiki-event-reward-title">Notable Rewards:</div>
+                                    <ul class="wiki-event-reward-list">
+                                        <li>Tournament Champion Title</li>
+                                        <li>Dragon Warrior Armor Set</li>
+                                        <li>Tournament Trophy (Housing Item)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wiki-event-item">
+                            <div class="wiki-event-image">
+                                <img src="/images/events/invasion.jpg" alt="Demon Invasion" class="wiki-event-img">
+                            </div>
+                            <div class="wiki-event-content">
+                                <h4 class="wiki-event-title">Demon Invasion</h4>
+                                <div class="wiki-event-period">Random (3-5 days)</div>
+                                <div class="wiki-event-description">
+                                    <p>Demons from the underworld are invading the realm! Join forces with other players to repel the invasion and protect the major cities. This event features world bosses and special invasion zones.</p>
+                                </div>
+                                <div class="wiki-event-rewards">
+                                    <div class="wiki-event-reward-title">Notable Rewards:</div>
+                                    <ul class="wiki-event-reward-list">
+                                        <li>Demon Slayer Title</li>
+                                        <li>Corrupted Weapons (Unique Skins)</li>
+                                        <li>Demon Essence (Crafting Material)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="wiki-section">
+            <div class="wiki-section-header">
+                <h2 class="wiki-section-title">News</h2>
+                <div class="wiki-section-subtitle">Latest announcements and updates</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <p>Stay informed about the latest developments, updates, and announcements for Dragon Realm. This section is regularly updated with the most recent news.</p>
+
+                <div class="wiki-news-list">
+                    <div class="wiki-news-item">
+                        <div class="wiki-news-date">June 15, 2023</div>
+                        <h3 class="wiki-news-title">Major Update: Rise of the Dragon Emperor</h3>
+                        <div class="wiki-news-content">
+                            <p>We're excited to announce our biggest update yet! Rise of the Dragon Emperor introduces a new continent, raises the level cap to 60, and adds the long-awaited Dragon Taming system.</p>
+                            <div class="wiki-news-highlights">
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-map"></i>
+                                    <span>New Continent: The Celestial Isles</span>
+                                </div>
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-level-up-alt"></i>
+                                    <span>Level Cap Increased to 60</span>
+                                </div>
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-dragon"></i>
+                                    <span>Dragon Taming System</span>
+                                </div>
+                            </div>
+                            <a href="#" class="wiki-news-link">Read Full Announcement</a>
+                        </div>
+                    </div>
+
+                    <div class="wiki-news-item">
+                        <div class="wiki-news-date">May 28, 2023</div>
+                        <h3 class="wiki-news-title">Balance Changes: Combat Revamp</h3>
+                        <div class="wiki-news-content">
+                            <p>Based on player feedback, we're implementing several balance changes to improve the combat experience. These changes aim to make all class specializations viable while maintaining unique playstyles.</p>
+                            <div class="wiki-news-highlights">
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-sword"></i>
+                                    <span>Warrior Skills Rebalanced</span>
+                                </div>
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-hat-wizard"></i>
+                                    <span>Mage Spell Adjustments</span>
+                                </div>
+                                <div class="wiki-news-highlight">
+                                    <i class="fas fa-bow-arrow"></i>
+                                    <span>Archer Critical Hit Rework</span>
+                                </div>
+                            </div>
+                            <a href="#" class="wiki-news-link">Read Full Announcement</a>
+                        </div>
+                    </div>
+
+                    <div class="wiki-news-item">
+                        <div class="wiki-news-date">May 10, 2023</div>
+                        <h3 class="wiki-news-title">Server Maintenance: May 12</h3>
+                        <div class="wiki-news-content">
+                            <p>We will be performing server maintenance on May 12 from 2:00 AM to 6:00 AM (UTC). During this time, the game will be unavailable as we implement infrastructure improvements.</p>
+                            <a href="#" class="wiki-news-link">Read Full Announcement</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wiki-news-archive">
+                    <a href="#" class="wiki-archive-link">View News Archive</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="vip" class="wiki-section">
+            <div class="wiki-section-header">
+                <h2 class="wiki-section-title">VIP</h2>
+                <div class="wiki-section-subtitle">Exclusive benefits and privileges</div>
+            </div>
+
+            <div class="wiki-section-content">
+                <p>The VIP system in Dragon Realm offers premium benefits to players who support the game. With multiple VIP levels, you can unlock increasingly valuable perks that enhance your gameplay experience.</p>
+
+                <div id="vip-benefits" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">VIP Benefits</h3>
+                    <div class="wiki-vip-benefits">
+                        <div class="wiki-vip-benefit">
+                            <div class="wiki-vip-benefit-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="wiki-vip-benefit-content">
+                                <h4>Increased Gold Drops</h4>
+                                <p>Earn up to 50% more gold from all sources, including monsters, quests, and events.</p>
+                            </div>
+                        </div>
+
+                        <div class="wiki-vip-benefit">
+                            <div class="wiki-vip-benefit-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="wiki-vip-benefit-content">
+                                <h4>XP Boost</h4>
+                                <p>Gain up to 40% more experience points from all activities, helping you level up faster.</p>
+                            </div>
+                        </div>
+
+                        <div class="wiki-vip-benefit">
+                            <div class="wiki-vip-benefit-icon">
+                                <i class="fas fa-box-open"></i>
+                            </div>
+                            <div class="wiki-vip-benefit-content">
+                                <h4>Daily Rewards</h4>
+                                <p>Receive special VIP daily rewards including premium consumables and rare materials.</p>
+                            </div>
+                        </div>
+
+                        <div class="wiki-vip-benefit">
+                            <div class="wiki-vip-benefit-icon">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <div class="wiki-vip-benefit-content">
+                                <h4>Store Discounts</h4>
+                                <p>Enjoy up to 15% discount on all store purchases, including special items.</p>
+                            </div>
+                        </div>
+
+                        <div class="wiki-vip-benefit">
+                            <div class="wiki-vip-benefit-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="wiki-vip-benefit-content">
+                                <h4>Reduced Cooldowns</h4>
+                                <p>Experience shorter cooldowns on daily activities and special features.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="vip-levels" class="wiki-subsection">
+                    <h3 class="wiki-subsection-title">VIP Levels</h3>
+                    <div class="wiki-table-container">
+                        <table class="wiki-table">
+                            <thead>
+                                <tr>
+                                    <th>VIP Level</th>
+                                    <th>Cost</th>
+                                    <th>Gold Boost</th>
+                                    <th>XP Boost</th>
+                                    <th>Special Features</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>VIP 1</td>
+                                    <td>$5/month</td>
+                                    <td>+10%</td>
+                                    <td>+10%</td>
+                                    <td>Daily VIP Gift</td>
+                                </tr>
+                                <tr>
+                                    <td>VIP 2</td>
+                                    <td>$10/month</td>
+                                    <td>+20%</td>
+                                    <td>+15%</td>
+                                    <td>+5% Store Discount, Extra Inventory Space</td>
+                                </tr>
+                                <tr>
+                                    <td>VIP 3</td>
+                                    <td>$15/month</td>
+                                    <td>+30%</td>
+                                    <td>+25%</td>
+                                    <td>+10% Store Discount, Exclusive Mount</td>
+                                </tr>
+                                <tr>
+                                    <td>VIP 4</td>
+                                    <td>$25/month</td>
+                                    <td>+40%</td>
+                                    <td>+35%</td>
+                                    <td>+15% Store Discount, Exclusive Titles, Custom Appearance</td>
+                                </tr>
+                                <tr>
+                                    <td>VIP 5</td>
+                                    <td>$50/month</td>
+                                    <td>+50%</td>
+                                    <td>+40%</td>
+                                    <td>All Previous Benefits + Private Island, Unique Cosmetics</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="wiki-vip-note">
+                        <p>Note: VIP benefits are active as long as your subscription is maintained. Some cosmetic rewards remain permanently in your account even if your subscription expires.</p>
+                    </div>
+
+                    <div class="wiki-vip-cta">
+                        <a href="#" class="wiki-vip-button">Become VIP</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>

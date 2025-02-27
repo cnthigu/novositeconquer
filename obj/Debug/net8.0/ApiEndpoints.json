@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "paymentData",
-        "Type": "ConquerSite.Models.PaymentData",
+        "Name": "paymentRequest",
+        "Type": "ConquerSite.Models.PaymentRequest",
         "IsRequired": true
       }
     ],

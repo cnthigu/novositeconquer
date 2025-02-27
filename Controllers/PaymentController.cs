@@ -17,15 +17,25 @@ namespace ConquerSite.Controllers
         }
 
         [HttpPost]
-        public IActionResult ConfirmPayment([FromBody] PaymentData paymentData)
+        public IActionResult ConfirmPayment([FromBody] PaymentRequest paymentRequest)
         {
-            if (paymentData == null || paymentData.Payment == null)
+            if (paymentRequest == null || paymentRequest.Payment == null)
             {
                 return BadRequest(new { error = "Invalid JSON" });
             }
 
-            var payment = paymentData.Payment;
-            long paymentId = payment.Id;
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
+
+                return BadRequest(new { error = string.Join(", ", errors) });
+            }
+
+            var payment = paymentRequest.Payment;
+            string paymentId = payment.Id;
             int paymentValue = payment.Value;
             string paymentUser = payment.ExternalReference;
 
