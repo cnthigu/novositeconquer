@@ -2124,6 +2124,54 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ssL\u002BJBzvTtqSzOLVT2Cp2auVLUNrJ9LZ\u002BrkvDAjy2Do="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2578"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ssL\u002BJBzvTtqSzOLVT2Cp2auVLUNrJ9LZ\u002BrkvDAjy2Do=\u0022"},{"Name":"Last-Modified","Value":"Wed, 16 Apr 2003 23:48:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/EggQuest.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\EggQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LCiXC2z9AmxJK2hP\u002BhFbeaRl39eXILeFWAkIgzzjV/c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80769"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022LCiXC2z9AmxJK2hP\u002BhFbeaRl39eXILeFWAkIgzzjV/c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:33:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/EggQuest.sorspl0a87.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\EggQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sorspl0a87"},{"Name":"integrity","Value":"sha256-LCiXC2z9AmxJK2hP\u002BhFbeaRl39eXILeFWAkIgzzjV/c="},{"Name":"label","Value":"_content/ConquerSite/images/events/EggQuest.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80769"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022LCiXC2z9AmxJK2hP\u002BhFbeaRl39eXILeFWAkIgzzjV/c=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:33:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/LetterQuest.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\LetterQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"87699"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/LetterQuest.yzoossz3vw.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\LetterQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yzoossz3vw"},{"Name":"integrity","Value":"sha256-jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM="},{"Name":"label","Value":"_content/ConquerSite/images/events/LetterQuest.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"87699"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:25:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/SoulKeeperQuest.6s03louk2w.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\SoulKeeperQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6s03louk2w"},{"Name":"integrity","Value":"sha256-tpv\u002Bo89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI="},{"Name":"label","Value":"_content/ConquerSite/images/events/SoulKeeperQuest.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65138"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tpv\u002Bo89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:30:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/SoulKeeperQuest.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\SoulKeeperQuest.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tpv\u002Bo89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65138"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022tpv\u002Bo89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:30:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/TreasureHunt.20ffbru63t.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\TreasureHunt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"20ffbru63t"},{"Name":"integrity","Value":"sha256-spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8="},{"Name":"label","Value":"_content/ConquerSite/images/events/TreasureHunt.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68288"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:35:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ConquerSite/images/events/TreasureHunt.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\events\TreasureHunt.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68288"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:35:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ConquerSite/images/transferir.fenbcts2tu.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\transferir.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

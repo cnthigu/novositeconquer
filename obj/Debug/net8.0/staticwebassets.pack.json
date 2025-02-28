@@ -713,6 +713,22 @@
       "PackagePath": "staticwebassets\\images\\avatar\\174.jpg"
     },
     {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\EggQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\LetterQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\LetterQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\SoulKeeperQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\SoulKeeperQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
+      "PackagePath": "staticwebassets\\images\\events\\TreasureHunt.png"
+    },
+    {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
       "PackagePath": "staticwebassets\\images\\transferir.png"
     },
