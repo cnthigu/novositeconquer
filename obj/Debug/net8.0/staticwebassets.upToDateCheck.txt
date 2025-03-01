@@ -174,10 +174,12 @@ wwwroot\images\avatar\171.jpg
 wwwroot\images\avatar\172.jpg
 wwwroot\images\avatar\173.jpg
 wwwroot\images\avatar\174.jpg
+wwwroot\images\CoinsNPC.png
 wwwroot\images\events\EggQuest.png
 wwwroot\images\events\LetterQuest.png
 wwwroot\images\events\SoulKeeperQuest.png
 wwwroot\images\events\TreasureHunt.png
+wwwroot\images\origensco.png
 wwwroot\images\transferir.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

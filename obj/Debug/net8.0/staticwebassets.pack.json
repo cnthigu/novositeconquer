@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "PackagePath": "staticwebassets\\images\\CoinsNPC.png"
+    },
+    {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\001.jpg",
       "PackagePath": "staticwebassets\\images\\avatar\\001.jpg"
     },
@@ -727,6 +731,10 @@
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
       "PackagePath": "staticwebassets\\images\\events\\TreasureHunt.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "PackagePath": "staticwebassets\\images\\origensco.png"
     },
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",

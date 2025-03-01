@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sKhImYUstH8j5jD6lnv7KcOj0+KIuSivXBQh73m9WJ4=",
+  "Hash": "s1Ov9ze2ytBkb3uaIu/GlG04oDe7HBtgLmo7VjkjFLA=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sy8ntkm2vd",
-      "Integrity": "JHpHxCxW2U0xRGxdMtCljo1ktdy0CSwa4NFmyo8szlA=",
+      "Fingerprint": "d0pm8zqa8t",
+      "Integrity": "HbzDtG6QcvNzGS2h8/o/cQrUNmaifXngWhqICot8O2s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3755,6 +3755,27 @@
       "OriginalItemSpec": "wwwroot\\images\\avatar\\174.jpg"
     },
     {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/CoinsNPC#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrjyu3zxdk",
+      "Integrity": "m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CoinsNPC.png"
+    },
+    {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
       "SourceId": "ConquerSite",
       "SourceType": "Discovered",
@@ -3837,6 +3858,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\events\\TreasureHunt.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/origensco#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lvvlz7htvm",
+      "Integrity": "X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\origensco.png"
     },
     {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
@@ -5296,7 +5338,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55901"
+          "Value": "56081"
         },
         {
           "Name": "Content-Type",
@@ -5304,11 +5346,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JHpHxCxW2U0xRGxdMtCljo1ktdy0CSwa4NFmyo8szlA=\""
+          "Value": "\"HbzDtG6QcvNzGS2h8/o/cQrUNmaifXngWhqICot8O2s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 20:48:21 GMT"
+          "Value": "Fri, 28 Feb 2025 02:27:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5318,12 +5360,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JHpHxCxW2U0xRGxdMtCljo1ktdy0CSwa4NFmyo8szlA="
+          "Value": "sha256-HbzDtG6QcvNzGS2h8/o/cQrUNmaifXngWhqICot8O2s="
         }
       ]
     },
     {
-      "Route": "css/site.sy8ntkm2vd.css",
+      "Route": "css/site.d0pm8zqa8t.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5333,7 +5375,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "55901"
+          "Value": "56081"
         },
         {
           "Name": "Content-Type",
@@ -5341,11 +5383,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JHpHxCxW2U0xRGxdMtCljo1ktdy0CSwa4NFmyo8szlA=\""
+          "Value": "\"HbzDtG6QcvNzGS2h8/o/cQrUNmaifXngWhqICot8O2s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 20:48:21 GMT"
+          "Value": "Fri, 28 Feb 2025 02:27:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5355,7 +5397,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sy8ntkm2vd"
+          "Value": "d0pm8zqa8t"
         },
         {
           "Name": "label",
@@ -5363,7 +5405,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JHpHxCxW2U0xRGxdMtCljo1ktdy0CSwa4NFmyo8szlA="
+          "Value": "sha256-HbzDtG6QcvNzGS2h8/o/cQrUNmaifXngWhqICot8O2s="
         }
       ]
     },
@@ -19718,6 +19760,88 @@
       ]
     },
     {
+      "Route": "images/CoinsNPC.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 17:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/CoinsNPC.vrjyu3zxdk.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 17:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrjyu3zxdk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CoinsNPC.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0="
+        }
+      ]
+    },
+    {
       "Route": "images/events/EggQuest.png",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
       "Selectors": [],
@@ -20042,6 +20166,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8="
+        }
+      ]
+    },
+    {
+      "Route": "images/origensco.lvvlz7htvm.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lvvlz7htvm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/origensco.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44="
+        }
+      ]
+    },
+    {
+      "Route": "images/origensco.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44="
         }
       ]
     },

@@ -1,4 +1,10 @@
-﻿/* Reset and base styles */
+﻿.logo-img {
+    height: 110px; /* Ajuste conforme necessário */
+    width: auto;
+    max-width: 300px; /* Define um limite máximo para evitar que fique grande demais */
+}
+
+/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
