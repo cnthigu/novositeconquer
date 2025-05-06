@@ -6,15 +6,15 @@
     <title>@ViewData["Title"] - OrigensCO</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Adicionando Font Awesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body style="background-image: url('/images/wallpaperflare.com_wallpaper.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <header class="header">
         <div class="header-container">
             <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">
-                <span class="logo-text">OrigensCO</span>
+                <img src="/images/origenscovertical.png" alt="OrigensCO Logo" class="logo-image">
             </a>
+
             <button class="navbar-toggler" type="button" onclick="toggleMenu()">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,8 +45,7 @@
                 @if (!string.IsNullOrEmpty(user))
                 {
                     <a class="login-button logged-in" asp-controller="Login" asp-action="Logout">
-                        <img src="/images/user-avatar.png" alt="User Avatar" class="user-avatar" />
-                        Logout
+                        <i class="fas fa-sign-out-alt"></i> Logout
                     </a>
                 }
                 else
@@ -54,6 +53,7 @@
                     <a class="login-button" asp-controller="Login" asp-action="Login">Login</a>
                 }
             </div>
+            @await Component.InvokeAsync("OnlinePlayers")
         </div>
     </header>
 
@@ -65,7 +65,7 @@
         <a href="https://www.facebook.com/OrigensConquer" target="_blank" class="social-link facebook" title="Facebook">
             <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="https://chat.whatsapp.com/CzAi6eWS9Cs0fggVrcP86h" target="_blank" class="social-link whatsapp" title="WhatsApp">
+        <a href="https://chat.whatsapp.com/GJPB1Kvspkd3YpKxfQoujR" target="_blank" class="social-link whatsapp" title="WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
@@ -74,83 +74,57 @@
         @RenderBody()
     </main>
 
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('show');
-        }
-    </script>
+
 
     @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
 
-<style>
+    <script>
+        // Função para atualizar o contador de jogadores online
+        function updateOnlinePlayers() {
+            fetch('/api/onlineplayers')
+                .then(response => response.json())
+                .then(data => {
+                    const countElement = document.querySelector('.online-players-count');
+                    if (countElement) {
+                        // Animação de contagem
+                        const currentCount = parseInt(countElement.textContent);
+                        const newCount = data.count;
 
-    .social-sidebar {
-        position: fixed;
-        top: 50%;
-        right: 20px; 
-        transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        z-index: 1000;
-    }
-
-    .social-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        text-decoration: none;
-        font-size: 24px;
-        color: #fff;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-        .social-link:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                        if (currentCount !== newCount) {
+                            countElement.classList.add('updating');
+                            setTimeout(() => {
+                                countElement.textContent = newCount;
+                                countElement.classList.remove('updating');
+                            }, 300);
+                        }
+                    }
+                })
+                .catch(error => console.error('Erro ao atualizar jogadores online:', error));
         }
+            
+        // Inicializar quando o documento estiver pronto
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("DOM carregado. Iniciando funções...");
 
-    .discord {
-        background-color: #5865F2; 
-    }
+            // Inicializar contador de jogadores
+            updateOnlinePlayers();
 
-    .facebook {
-        background-color: #1877F2;
-    }
+            // Verificar status do anúncio após um pequeno delay
+            setTimeout(checkAnnouncementStatus, 1000);
 
-    .youtube {
-        background-color: #FF0000; 
-    }
+            // Atualizar jogadores online a cada 60 segundos
+            setInterval(updateOnlinePlayers, 60000);
+        });
 
-    .whatsapp {
-        background-color: #25D366; 
-    }
+        // Expor as funções para o escopo global
+        window.closeAnnouncement = closeAnnouncement;
+        window.forceShowAnnouncement = forceShowAnnouncement;
+    </script>
+    <div class="video-container">
+        <iframe width="300" height="170" src="https://www.youtube.com/embed/curyR7o2X4I?autoplay=1&mute=1"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+    </div>
+</body> 
 
-    .telegram {
-        background-color: #0088cc; 
-    }
-
-    .logo-text {
-        font-family: 'Roboto', sans-serif;
-        font-size: 28px;
-        font-weight: 700;
-        color: #ffffff; 
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        background: linear-gradient(90deg, #ff6b6b, #4ecdc4); 
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-decoration: none;
-        transition: transform 0.3s ease;
-    }
-
-    .logo:hover .logo-text {
-        transform: scale(1.05); 
-    }
-</style>
+</html>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y2jF6UgFTvw=",
+  "dgSpecHash": "H24y0Kx+0n4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\ConquerSite.csproj",
+  "projectFilePath": "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\ConquerSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HIGORV\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
     "C:\\Users\\HIGORV\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512",

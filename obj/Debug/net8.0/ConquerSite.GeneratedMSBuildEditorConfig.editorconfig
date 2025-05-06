@@ -9,81 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConquerSite
 build_property.RootNamespace = ConquerSite
-build_property.ProjectDir = C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite\
+build_property.ProjectDir = C:\Users\HIGORV\Desktop\Projetos\novositeconquer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HIGORV\source\repos\ConquerSite\ConquerSite
+build_property.MSBuildProjectDirectory = C:\Users\HIGORV\Desktop\Projetos\novositeconquer
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Download/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Download/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG93bmxvYWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Home/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Login/Login.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Market/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Market/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Mining/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Mining/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWluaW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/OnlinePlayers/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/OnlinePlayers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25saW5lUGxheWVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Pagamento/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Pagamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnYW1lbnRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Player/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Player/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Registro/RecoverAccount.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Registro/RecoverAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cUmVjb3ZlckFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Registro/Register.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Registro/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Registro/ResetPassword.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Registro/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Shared/Error.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Shared/OnlinePlayers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE9ubGluZVBsYXllcnNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Wiki/Index.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Wiki/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lraVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/_ViewImports.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/_ViewStart.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HIGORV/source/repos/ConquerSite/ConquerSite/Views/Shared/_Layout.cshtml]
+[C:/Users/HIGORV/Desktop/Projetos/novositeconquer/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fpd46d6lsr

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E+VEC9D1HlRK7lEa5d38BbbkRH43A4Lngi2DEuuOZdc=",
+  "Hash": "b6xPSaEvAbfwxEdM+yWWa2FmNGVN8Dryfu51zQRsFyw=",
   "Source": "ConquerSite",
   "BasePath": "_content/ConquerSite",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h4l4cpo2v9",
-      "Integrity": "8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=",
+      "Fingerprint": "8ssk0tjqtx",
+      "Integrity": "uBJVg2LAw81MfiMchneaXAc3lLspVsLHY9v1O7u/+cE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3755,6 +3755,153 @@
       "OriginalItemSpec": "wwwroot\\images\\avatar\\174.jpg"
     },
     {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/CoinsNPC#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrjyu3zxdk",
+      "Integrity": "m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CoinsNPC.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/events/EggQuest#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sorspl0a87",
+      "Integrity": "LCiXC2z9AmxJK2hP+hFbeaRl39eXILeFWAkIgzzjV/c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\EggQuest.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\LetterQuest.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/events/LetterQuest#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yzoossz3vw",
+      "Integrity": "jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\LetterQuest.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\SoulKeeperQuest.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/events/SoulKeeperQuest#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6s03louk2w",
+      "Integrity": "tpv+o89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\SoulKeeperQuest.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/events/TreasureHunt#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "20ffbru63t",
+      "Integrity": "spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\events\\TreasureHunt.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/origensco#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lvvlz7htvm",
+      "Integrity": "X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\origensco.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origenscovertical.png",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/origenscovertical#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "etugp4vcbq",
+      "Integrity": "/sZ32jrk3zKyT3nf2o1DOcoQ6gfItErfNGUXO+WkSfw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\origenscovertical.png"
+    },
+    {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
       "SourceId": "ConquerSite",
       "SourceType": "Discovered",
@@ -3774,6 +3921,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\transferir.png"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/wallpaperflare.com_wallpaper#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7z5x06jbow",
+      "Integrity": "fZt1IJ7PbweTZ38rN3w76ACg3HfxN3RrznlzBViiHPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wp12976406-conquer-online-wallpapers.jpg",
+      "SourceId": "ConquerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
+      "BasePath": "_content/ConquerSite",
+      "RelativePath": "images/wp12976406-conquer-online-wallpapers#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tbv4ts86zr",
+      "Integrity": "Z1tefHEWVx+3QvGYivw9tUVPlKCDMevYmec2Uj6iXiI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wp12976406-conquer-online-wallpapers.jpg"
     },
     {
       "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\js\\site.js",
@@ -5013,27 +5202,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\patch.txt"
-    },
-    {
-      "Identity": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
-      "SourceId": "ConquerSite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\",
-      "BasePath": "_content/ConquerSite",
-      "RelativePath": "Patch/1#[.{fingerprint}]?.rar",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2tbzt3140r",
-      "Integrity": "eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Patch\\1.rar"
     }
   ],
   "Endpoints": [
@@ -5060,7 +5228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 22:05:28 GMT"
+          "Value": "Fri, 14 Mar 2025 16:32:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5097,7 +5265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 22:05:28 GMT"
+          "Value": "Fri, 14 Mar 2025 16:32:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5142,7 +5310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 22:05:28 GMT"
+          "Value": "Fri, 14 Mar 2025 16:32:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5187,7 +5355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 22:05:28 GMT"
+          "Value": "Fri, 14 Mar 2025 16:32:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5202,6 +5370,51 @@
       ]
     },
     {
+      "Route": "css/site.8ssk0tjqtx.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62391"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uBJVg2LAw81MfiMchneaXAc3lLspVsLHY9v1O7u/+cE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 18:44:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ssk0tjqtx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uBJVg2LAw81MfiMchneaXAc3lLspVsLHY9v1O7u/+cE="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -5212,7 +5425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22524"
+          "Value": "62391"
         },
         {
           "Name": "Content-Type",
@@ -5220,11 +5433,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=\""
+          "Value": "\"uBJVg2LAw81MfiMchneaXAc3lLspVsLHY9v1O7u/+cE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
+          "Value": "Thu, 13 Mar 2025 18:44:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5234,52 +5447,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.h4l4cpo2v9.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22524"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 09:53:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h4l4cpo2v9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8dOZSReKZfATOhygF00HTTWoup8kkUTbB656e4cP6sE="
+          "Value": "sha256-uBJVg2LAw81MfiMchneaXAc3lLspVsLHY9v1O7u/+cE="
         }
       ]
     },
@@ -19634,6 +19802,580 @@
       ]
     },
     {
+      "Route": "images/CoinsNPC.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 17:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/CoinsNPC.vrjyu3zxdk.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63239"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 17:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrjyu3zxdk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/CoinsNPC.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m9KbwTmSDxYC57BnoqyvMueayVg/oGIeQPzJFXLbPj0="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/EggQuest.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LCiXC2z9AmxJK2hP+hFbeaRl39eXILeFWAkIgzzjV/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LCiXC2z9AmxJK2hP+hFbeaRl39eXILeFWAkIgzzjV/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/EggQuest.sorspl0a87.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LCiXC2z9AmxJK2hP+hFbeaRl39eXILeFWAkIgzzjV/c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sorspl0a87"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/EggQuest.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LCiXC2z9AmxJK2hP+hFbeaRl39eXILeFWAkIgzzjV/c="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/LetterQuest.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\LetterQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:25:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/LetterQuest.yzoossz3vw.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\LetterQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87699"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:25:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yzoossz3vw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/LetterQuest.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jhCydVgV47t7nuAzmr7OgZvkdSrFeJmtkmyw/pW09KM="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/SoulKeeperQuest.6s03louk2w.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\SoulKeeperQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tpv+o89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:30:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6s03louk2w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/SoulKeeperQuest.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tpv+o89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/SoulKeeperQuest.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\SoulKeeperQuest.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tpv+o89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:30:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tpv+o89SPgU/l5tgbRB3EuoElmrpQlTOZSlu1WmI0yI="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/TreasureHunt.20ffbru63t.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "20ffbru63t"
+        },
+        {
+          "Name": "label",
+          "Value": "images/events/TreasureHunt.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8="
+        }
+      ]
+    },
+    {
+      "Route": "images/events/TreasureHunt.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 23:35:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-spCE/j/bd0UeQiSic9v9xrwwz4lLGWLclMu7Ho6oeM8="
+        }
+      ]
+    },
+    {
+      "Route": "images/origensco.lvvlz7htvm.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lvvlz7htvm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/origensco.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44="
+        }
+      ]
+    },
+    {
+      "Route": "images/origensco.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 01:40:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X5zAUHcIPlKq/mEKOfSxJ94cqMKt+dZySzzGyN76Q44="
+        }
+      ]
+    },
+    {
+      "Route": "images/origenscovertical.etugp4vcbq.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origenscovertical.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/sZ32jrk3zKyT3nf2o1DOcoQ6gfItErfNGUXO+WkSfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:11:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "etugp4vcbq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/origenscovertical.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/sZ32jrk3zKyT3nf2o1DOcoQ6gfItErfNGUXO+WkSfw="
+        }
+      ]
+    },
+    {
+      "Route": "images/origenscovertical.png",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origenscovertical.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/sZ32jrk3zKyT3nf2o1DOcoQ6gfItErfNGUXO+WkSfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 21:11:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/sZ32jrk3zKyT3nf2o1DOcoQ6gfItErfNGUXO+WkSfw="
+        }
+      ]
+    },
+    {
       "Route": "images/transferir.fenbcts2tu.png",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
       "Selectors": [],
@@ -19712,6 +20454,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-yVTovAzgiFOMrGsAizzbS72aWLNsyAROsFlUwLD6IMg="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallpaperflare.com_wallpaper.7z5x06jbow.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fZt1IJ7PbweTZ38rN3w76ACg3HfxN3RrznlzBViiHPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7z5x06jbow"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wallpaperflare.com_wallpaper.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fZt1IJ7PbweTZ38rN3w76ACg3HfxN3RrznlzBViiHPA="
+        }
+      ]
+    },
+    {
+      "Route": "images/wallpaperflare.com_wallpaper.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fZt1IJ7PbweTZ38rN3w76ACg3HfxN3RrznlzBViiHPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fZt1IJ7PbweTZ38rN3w76ACg3HfxN3RrznlzBViiHPA="
+        }
+      ]
+    },
+    {
+      "Route": "images/wp12976406-conquer-online-wallpapers.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wp12976406-conquer-online-wallpapers.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1tefHEWVx+3QvGYivw9tUVPlKCDMevYmec2Uj6iXiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:17:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1tefHEWVx+3QvGYivw9tUVPlKCDMevYmec2Uj6iXiI="
+        }
+      ]
+    },
+    {
+      "Route": "images/wp12976406-conquer-online-wallpapers.tbv4ts86zr.jpg",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wp12976406-conquer-online-wallpapers.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1tefHEWVx+3QvGYivw9tUVPlKCDMevYmec2Uj6iXiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:17:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tbv4ts86zr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wp12976406-conquer-online-wallpapers.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1tefHEWVx+3QvGYivw9tUVPlKCDMevYmec2Uj6iXiI="
         }
       ]
     },
@@ -24550,88 +25456,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-SaWBNzwYbmyTLf1nWdGeLJR6Pk4Hz5B+KnXhHW2hdTc="
-        }
-      ]
-    },
-    {
-      "Route": "Patch/1.2tbzt3140r.rar",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 17:10:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2tbzt3140r"
-        },
-        {
-          "Name": "label",
-          "Value": "Patch/1.rar"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw="
-        }
-      ]
-    },
-    {
-      "Route": "Patch/1.rar",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 17:10:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eqAbnio55rG7Pbxe3gbmEIaWzr2GBIj3a7fDnfj+Bsw="
         }
       ]
     }

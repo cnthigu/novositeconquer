@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ConquerSite.Controllers.PaymentController",
+    "Method": "ConfirmPayment",
+    "RelativePath": "payment-approved",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentRequest",
+        "Type": "ConquerSite.Models.PaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

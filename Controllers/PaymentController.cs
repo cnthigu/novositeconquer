@@ -39,14 +39,17 @@ namespace ConquerSite.Controllers
             int paymentValue = payment.Value;
             string paymentUser = payment.ExternalReference;
 
+            // Converte o valor do pagamento de reais para pontos (1 ponto para cada 2 reais)
+            int paymentValueInPoints = paymentValue / 2; // Converte reais para pontos (2 reais = 1 ponto)
+
             // Verifica se o usuário já existe na tabela de pagamentos
             var existingPaymentRecord = _context.payments
                 .FirstOrDefault(p => p.username == paymentUser);
 
             if (existingPaymentRecord != null)
             {
-                // Se o usuário já tiver um pagamento registrado, soma os founds
-                existingPaymentRecord.founds += paymentValue;
+                // Se o usuário já tiver um pagamento registrado, soma os pontos
+                existingPaymentRecord.founds += paymentValueInPoints;
                 _context.payments.Update(existingPaymentRecord); // Atualiza o registro existente
             }
             else
@@ -55,7 +58,7 @@ namespace ConquerSite.Controllers
                 var paymentRecord = new PaymentRecord
                 {
                     id = paymentId,
-                    founds = paymentValue,
+                    founds = paymentValueInPoints, // Armazena os pontos convertidos
                     username = paymentUser,
                     Date = DateTime.Now
                 };

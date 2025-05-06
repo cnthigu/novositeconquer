@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\ConquerSite.csproj": {}
+    "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\ConquerSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\ConquerSite.csproj": {
+    "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\ConquerSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\ConquerSite.csproj",
+        "projectUniqueName": "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\ConquerSite.csproj",
         "projectName": "ConquerSite",
-        "projectPath": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\ConquerSite.csproj",
+        "projectPath": "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\ConquerSite.csproj",
         "packagesPath": "C:\\Users\\HIGORV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\obj\\",
+        "outputPath": "C:\\Users\\HIGORV\\Desktop\\Projetos\\novositeconquer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets\\ConquerSite.qno5n2yqmb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\Patch\\1.rar",
-      "PackagePath": "staticwebassets\\Patch\\1.rar"
-    },
-    {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\CoinsNPC.png",
+      "PackagePath": "staticwebassets\\images\\CoinsNPC.png"
     },
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\avatar\\001.jpg",
@@ -713,8 +713,40 @@
       "PackagePath": "staticwebassets\\images\\avatar\\174.jpg"
     },
     {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\EggQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\EggQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\LetterQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\LetterQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\SoulKeeperQuest.png",
+      "PackagePath": "staticwebassets\\images\\events\\SoulKeeperQuest.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\events\\TreasureHunt.png",
+      "PackagePath": "staticwebassets\\images\\events\\TreasureHunt.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origensco.png",
+      "PackagePath": "staticwebassets\\images\\origensco.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\origenscovertical.png",
+      "PackagePath": "staticwebassets\\images\\origenscovertical.png"
+    },
+    {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\transferir.png",
       "PackagePath": "staticwebassets\\images\\transferir.png"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wallpaperflare.com_wallpaper.jpg",
+      "PackagePath": "staticwebassets\\images\\wallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\images\\wp12976406-conquer-online-wallpapers.jpg",
+      "PackagePath": "staticwebassets\\images\\wp12976406-conquer-online-wallpapers.jpg"
     },
     {
       "Id": "C:\\Users\\HIGORV\\source\\repos\\ConquerSite\\ConquerSite\\wwwroot\\js\\site.js",

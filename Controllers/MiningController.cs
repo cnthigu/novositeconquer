@@ -7,7 +7,6 @@ namespace ConquerSite.Controllers
 {
     public class MiningController : Controller
     {
-
         private readonly ApplicationDbContext _context;
 
         public MiningController(ApplicationDbContext context)
@@ -15,10 +14,11 @@ namespace ConquerSite.Controllers
             _context = context;
         }
 
-
         public IActionResult Index()
         {
-            var items = _context.mined_items.ToList();
+            var items = _context.mined_items
+                .OrderByDescending(i => i.mined_at) // Ordena por Timestamp, mais recentes primeiro
+                .ToList();
             return View(items);
         }
     }

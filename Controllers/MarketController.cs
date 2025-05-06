@@ -16,17 +16,17 @@ namespace ConquerSite.Controllers
 
         public IActionResult Index()
         {
-            var items = _context.marketitems.ToList();
+            var items = _context.marketitems
+                .OrderByDescending(i => i.Timestamp) // Ordena por Timestamp, mais recentes primeiro
+                .ToList();
             return View(items);
         }
 
         public string GetRandomAvatar()
-        {         
+        {
             Random rand = new Random();
-            int avatarId = rand.Next(1, 296);  
-            return avatarId.ToString("D3");  
+            int avatarId = rand.Next(1, 296);
+            return avatarId.ToString("D3");
         }
     }
-
-
 }

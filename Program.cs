@@ -1,4 +1,5 @@
 using ConquerSite.Data;
+using ConquerSite.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Home/Error";
     });
 
-
+builder.Services.AddScoped<PlayerService>();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDistributedMemoryCache();
