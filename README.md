@@ -42,6 +42,7 @@ Para uma visão prática da implementação e evolução do projeto, confira os 
 
 📌 **Versão 4.0.0** - [Vídeo Demonstrativo](https://youtu.be/72jCJgFOeQk)&#x20;
 
+📌 **Versão 5.0.0** - [Vídeo Demonstrativo](https://www.youtube.com/watch?v=ZS2JE0wzVfg)&#x20;
 ---
 
 ## Como Executar o Projeto
